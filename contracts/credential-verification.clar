@@ -30,3 +30,23 @@
     revoked: bool,
     proof-hash: (buff 32)  ;; Hash of the verification proof
   })
+
+;; Authorization checks
+(define-private (is-contract-owner)
+  (is-eq tx-sender (var-get contract-owner)))
+
+(define-private (is-verifier (principal-to-check principal))
+  (default-to false (map-get? verifiers principal-to-check)))
+
+;; Public functions to manage verifiers
+(define-public (add-verifier (verifier principal))
+  (begin
+    (asserts! (is-contract-owner) ERR-NOT-AUTHORIZED)
+    (map-set verifiers verifier true)
+    (ok true)))
+
+(define-public (remove-verifier (verifier principal))
+  (begin
+    (asserts! (is-contract-owner) ERR-NOT-AUTHORIZED)
+    (map-delete verifiers verifier)
+    (ok true)))
