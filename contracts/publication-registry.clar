@@ -29,3 +29,15 @@
 ;; Authorization check
 (define-private (is-contract-owner)
   (is-eq tx-sender (var-get contract-owner)))
+
+;; Get the next publication ID
+(define-private (get-next-publication-id)
+  (let ((next-id (+ (var-get last-publication-id) u1)))
+    (var-set last-publication-id next-id)
+    next-id))
+
+;; Check if the user is an author
+(define-private (is-author (publication-id uint) (user principal))
+  (match (map-get? publications { publication-id: publication-id })
+    publication (is-some (index-of (get authors publication) user))
+    false))
