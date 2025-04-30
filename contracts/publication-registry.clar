@@ -22,3 +22,10 @@
     journal: (optional principal),
     doi: (optional (string-ascii 64))
   })
+
+;; Publication counter
+(define-data-var last-publication-id uint u0)
+
+;; Authorization check
+(define-private (is-contract-owner)
+  (is-eq tx-sender (var-get contract-owner)))
