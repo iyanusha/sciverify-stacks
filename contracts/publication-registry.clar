@@ -82,3 +82,29 @@
 ;; Get publication metadata by ID
 (define-read-only (get-publication-metadata (publication-id uint))
   (ok (map-get? publication-metadata { publication-id: publication-id })))
+
+;; Add publication review functionality
+(define-map publication-reviews
+  { publication-id: uint }
+  { assigned-reviewers: (list 10 principal),
+    completed-reviews: (list 10 uint),
+    review-deadline: uint
+  })
+
+;; Get publication reviews data by ID
+(define-read-only (get-publication-reviews-data (publication-id uint))
+  (ok (map-get? publication-reviews { publication-id: publication-id })))
+
+;; Get the last publication ID
+(define-read-only (get-last-publication-id)
+  (ok (var-get last-publication-id)))
+
+;; Administrative functions
+(define-public (transfer-ownership (new-owner principal))
+  (begin
+    (asserts! (is-contract-owner) ERR-NOT-AUTHORIZED)
+    (var-set contract-owner new-owner)
+    (ok true)))
+
+(define-read-only (get-contract-owner)
+  (ok (var-get contract-owner)))
