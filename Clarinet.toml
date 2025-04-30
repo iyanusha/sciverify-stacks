@@ -1,9 +1,13 @@
 [project]
-name = "."
+name = "sciverify"
 authors = []
 description = ""
 telemetry = true
 requirements = []
+[contracts.ownable-trait]
+path = "contracts/ownable-trait.clar"
+depends_on = []
+
 [contracts.sip-010-trait-ft-standard]
 path = "contracts/sip-010-trait-ft-standard.clar"
 depends_on = []
