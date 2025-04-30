@@ -75,3 +75,19 @@
     (ok true)
   )
 )
+
+;; Check if credentials are expired
+(define-private (is-credentials-expired (user principal))
+  (match (map-get? verified-credentials { user: user })
+    credentials
+      (begin
+        (asserts! (< block-height (get expires-at credentials)) ERR-EXPIRED)
+        (ok true))
+    ERR-DOES-NOT-EXIST))
+
+;; Function to verify credentials
+(define-public (verify-credentials (user principal))
+  (begin
+    (asserts! (not (get revoked (map-get verified-credentials { user: user }))) ERR-REVOKED)
+    (ok (map-get? verified-credentials { user: user })))
+)
