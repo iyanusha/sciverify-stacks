@@ -50,3 +50,28 @@
     (asserts! (is-contract-owner) ERR-NOT-AUTHORIZED)
     (map-delete verifiers verifier)
     (ok true)))
+
+(define-public (submit-credentials 
+  (roles (list 5 uint))
+  (fields (list 10 (string-ascii 64)))
+  (institution (string-utf8 256))
+  (proof-hash (buff 32))
+)
+  (begin
+    (asserts! (is-verifier tx-sender) ERR-NOT-AUTHORIZED)
+    ;; Store credentials
+    (map-set verified-credentials
+      { user: tx-sender }
+      {
+        roles: roles,
+        fields: fields,
+        institution: institution,
+        verified-by: tx-sender,
+        verified-at: block-height,
+        expires-at: u0,
+        revoked: false,
+        proof-hash: proof-hash
+      })
+    (ok true)
+  )
+)
