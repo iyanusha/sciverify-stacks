@@ -129,3 +129,15 @@
       )
     ERR-DOES-NOT-EXIST
   ))
+
+;; Administrative functions
+
+(define-public (transfer-ownership (new-owner principal))
+  (begin
+    (asserts! (is-contract-owner) ERR-NOT-AUTHORIZED)
+    (var-set contract-owner new-owner)
+    (ok true)
+  ))
+
+(define-read-only (get-contract-owner)
+  (ok (var-get contract-owner)))
