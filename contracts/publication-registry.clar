@@ -68,3 +68,17 @@
         updated-at: current-block-height
       })
     (ok true)))
+
+;; Update publication status
+(define-public (update-publication-status (publication-id uint) (new-status uint))
+  (match (map-get? publications { publication-id: publication-id })
+    publication (begin
+        (map-set publications
+          { publication-id: publication-id }
+          (merge publication { status: new-status }))
+        (ok true))
+    (err ERR-NOT-FOUND)))
+
+;; Get publication metadata by ID
+(define-read-only (get-publication-metadata (publication-id uint))
+  (ok (map-get? publication-metadata { publication-id: publication-id })))
