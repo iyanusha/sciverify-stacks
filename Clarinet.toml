@@ -16,6 +16,10 @@ depends_on = []
 path = "contracts/sip-010-trait-ft-standard.clar"
 depends_on = []
 
+[contracts.credential-verification]
+path = "contracts/credential-verification.clar"
+depends_on = []
+
 [repl]
 costs_version = 2
 parser_version = 2
