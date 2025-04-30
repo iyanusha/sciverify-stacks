@@ -41,3 +41,30 @@
   (match (map-get? publications { publication-id: publication-id })
     publication (is-some (index-of (get authors publication) user))
     false))
+
+(define-public (register-publication
+  (title (string-utf8 256))
+  (abstract (string-utf8 1024))
+  (authors (list 10 principal))
+  (ipfs-hash (string-ascii 64))
+  (keywords (list 20 (string-ascii 64)))
+  (field-of-study (string-ascii 64))
+  (additional-info (optional (string-utf8 1024)))
+)
+  (let ((publication-id (get-next-publication-id))
+        (current-block-height block-height))
+    ;; Ensure authors list contains tx-sender
+    (asserts! (is-some (index-of authors tx-sender)) ERR-NOT-AUTHORIZED)
+    ;; Store publication data
+    (map-set publications
+      { publication-id: publication-id }
+      {
+        title: title,
+        abstract: abstract,
+        authors: authors,
+        ipfs-hash: ipfs-hash,
+        status: 1, ;; Submitted status
+        submitted-at: current-block-height,
+        updated-at: current-block-height
+      })
+    (ok true)))
