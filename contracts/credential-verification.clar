@@ -91,3 +91,41 @@
     (asserts! (not (get revoked (map-get verified-credentials { user: user }))) ERR-REVOKED)
     (ok (map-get? verified-credentials { user: user })))
 )
+
+(define-public (has-role (user principal) (role uint))
+  (match (map-get? verified-credentials { user: user })
+    credentials
+      (begin
+        ;; Ensure credentials are valid (verified, not revoked/expired)
+        (asserts! (and 
+                    (> (get verified-at credentials) u0)
+                    (not (get revoked credentials))
+                    (or 
+                      (is-eq (get expires-at credentials) u0)
+                      (< block-height (get expires-at credentials))
+                    ))
+                  ERR-EXPIRED)
+        ;; Check for the specified role in roles list
+        (ok (is-some (index-of (get roles credentials) role)))
+      )
+    ERR-DOES-NOT-EXIST
+  ))
+
+(define-public (has-field-expertise (user principal) (field (string-ascii 64)))
+  (match (map-get? verified-credentials { user: user })
+    credentials
+      (begin
+        ;; Ensure credentials are valid (verified, not revoked/expired)
+        (asserts! (and 
+                    (> (get verified-at credentials) u0)
+                    (not (get revoked credentials))
+                    (or 
+                      (is-eq (get expires-at credentials) u0)
+                      (< block-height (get expires-at credentials))
+                    ))
+                  ERR-EXPIRED)
+        ;; Check for the field in the fields list
+        (ok (is-some (index-of (get fields credentials) field)))
+      )
+    ERR-DOES-NOT-EXIST
+  ))
