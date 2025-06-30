@@ -8,8 +8,16 @@ requirements = []
 path = "contracts/ownable-trait.clar"
 depends_on = []
 
+[contracts.publication-registry]
+path = "contracts/publication-registry.clar"
+depends_on = []
+
 [contracts.sip-010-trait-ft-standard]
 path = "contracts/sip-010-trait-ft-standard.clar"
+depends_on = []
+
+[contracts.credential-verification]
+path = "contracts/credential-verification.clar"
 depends_on = []
 
 [repl]
