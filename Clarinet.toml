@@ -1,34 +1,53 @@
 [project]
-name = "sciverify"
+name = 'sciverify'
+description = ''
 authors = []
-description = ""
 telemetry = true
+cache_dir = '.cache'
 requirements = []
+[contracts.credential-verification]
+path = 'contracts/credential-verification.clar'
+clarity_version = 1
+epoch = 2.05
+
+[contracts.governance]
+path = 'contracts/governance.clar'
+clarity_version = 3
+epoch = 3.1
+
 [contracts.ownable-trait]
-path = "contracts/ownable-trait.clar"
-depends_on = []
+path = 'contracts/ownable-trait.clar'
+clarity_version = 1
+epoch = 2.05
 
 [contracts.publication-registry]
-path = "contracts/publication-registry.clar"
-depends_on = []
+path = 'contracts/publication-registry.clar'
+clarity_version = 1
+epoch = 2.05
+
+[contracts.reputation-token]
+path = 'contracts/reputation-token.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.review-protocol]
+path = 'contracts/review-protocol.clar'
+clarity_version = 3
+epoch = 3.1
 
 [contracts.sip-010-trait-ft-standard]
-path = "contracts/sip-010-trait-ft-standard.clar"
-depends_on = []
-
-[contracts.credential-verification]
-path = "contracts/credential-verification.clar"
-depends_on = []
-
-[repl]
-costs_version = 2
-parser_version = 2
-
+path = 'contracts/sip-010-trait-ft-standard.clar'
+clarity_version = 1
+epoch = 2.05
 [repl.analysis]
-passes = ["check_checker"]
+passes = ['check_checker']
 
 [repl.analysis.check_checker]
 strict = false
 trusted_sender = false
 trusted_caller = false
 callee_filter = false
+
+[repl.remote_data]
+enabled = false
+api_url = 'https://api.hiro.so'
