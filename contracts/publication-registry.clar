@@ -90,6 +90,11 @@
   (let ((publication-id (get-next-publication-id))
         (current-block-height block-height))
     
+    ;; Validate input fields
+    (asserts! (> (len title) u0) ERR-INVALID-INPUT)
+    (asserts! (> (len ipfs-hash) u0) ERR-INVALID-INPUT)
+    (asserts! (> (len authors) u0) ERR-INVALID-INPUT)
+
     ;; Ensure authors list contains tx-sender
     (asserts! (is-some (index-of authors tx-sender)) ERR-NOT-AUTHORIZED)
     

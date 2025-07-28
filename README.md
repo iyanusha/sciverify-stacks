@@ -47,25 +47,42 @@ SciVerify leverages Stacks' unique capabilities:
 - **Post-Quantum Security**: Forward-thinking security measures for long-term scientific record protection
 - **Micro-Transactions**: Low-cost operations for review submissions and reputation updates
 
-## 🚀 Getting Started
+## Project Structure
 
-```bash
-# Clone repository
-git clone https://github.com/iyanusha/sciverify-stacks
-
-# Install dependencies
-npm install
-
-# Run tests
-clarinet test
-
-# Start development server
-npm run dev
+```
+sciverify-stacks/
+├── frontend/              # Next.js web application
+│   ├── src/
+│   │   ├── app/           # App router pages
+│   │   ├── components/    # React components
+│   │   ├── hooks/         # Custom hooks
+│   │   └── lib/           # Stacks configuration
+│   └── package.json
+├── contracts/             # Clarity smart contracts
+│   ├── publication-registry.clar
+│   ├── credential-verification.clar
+│   ├── review-protocol.clar
+│   ├── reputation-token.clar
+│   └── governance.clar
+├── tests/                 # Contract test files
+└── Clarinet.toml
 ```
 
-## 📋 Project Status
+## Getting Started
 
-SciVerify is currently in active development. See our project roadmap for upcoming features and milestones.
+### Smart Contracts
+```bash
+git clone https://github.com/iyanusha/sciverify-stacks
+cd sciverify-stacks
+clarinet test
+```
+
+### Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
 ## 👥 Contributing
 
