@@ -74,6 +74,10 @@ balance = 100_000_000_000_000
 
 [devnet]
 disable_bitcoin_explorer = true
+epoch_2_4 = 100
+epoch_2_5 = 101
+epoch_3_0 = 102
+pox_2_activation = 100
 # disable_stacks_explorer = true
 # disable_stacks_api = true
 # working_dir = "tmp/devnet"

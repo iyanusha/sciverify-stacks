@@ -406,3 +406,12 @@
 (define-read-only (get-contract-owner)
   (ok (var-get contract-owner))
 )
+
+;; Get registry status with current timestamp
+(define-read-only (get-registry-status)
+  {
+    total-publications: (var-get last-publication-id),
+    current-block: block-height,
+    current-time: (unwrap-panic (get-stacks-block-info? time block-height))
+  }
+)

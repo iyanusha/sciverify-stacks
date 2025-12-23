@@ -18,6 +18,8 @@ export const CONTRACTS = {
   reputationToken: "reputation-token",
 };
 
+export const CLARITY_VERSION = 4;
+
 export const EXPLORER_URL = isMainnet
-  ? "https://explorer.stacks.co"
-  : "https://explorer.stacks.co/?chain=testnet";
+  ? "https://explorer.hiro.so"
+  : "https://explorer.hiro.so/?chain=testnet";
