@@ -23,3 +23,5 @@ export const CLARITY_VERSION = 4;
 export const EXPLORER_URL = isMainnet
   ? "https://explorer.hiro.so"
   : "https://explorer.hiro.so/?chain=testnet";
+
+export const TYPESCRIPT_TYPES_CONFIG = { refreshMs: 30000, retries: 3 } as const;
