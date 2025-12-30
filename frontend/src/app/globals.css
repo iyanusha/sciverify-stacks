@@ -25,3 +25,9 @@ body {
 .typescript_types:hover { @apply shadow-md border-gray-300; }
 .typescript_types--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .typescript_types__header { @apply flex items-center justify-between mb-4; }
+
+/* Add error boundary and error handling */
+.error_handling { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.error_handling:hover { @apply shadow-md border-gray-300; }
+.error_handling--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.error_handling__header { @apply flex items-center justify-between mb-4; }
