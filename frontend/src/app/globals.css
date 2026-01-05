@@ -49,3 +49,9 @@ body {
 .accessibility:hover { @apply shadow-md border-gray-300; }
 .accessibility--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .accessibility__header { @apply flex items-center justify-between mb-4; }
+
+/* Improve responsive design for all devices */
+.responsive_design { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.responsive_design:hover { @apply shadow-md border-gray-300; }
+.responsive_design--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.responsive_design__header { @apply flex items-center justify-between mb-4; }
