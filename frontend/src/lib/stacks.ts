@@ -37,3 +37,5 @@ export const FORM_VALIDATION_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
 
 export const ACCESSIBILITY_CONFIG = { refreshMs: 30000, retries: 3 } as const;
+
+export const RESPONSIVE_DESIGN_CONFIG = { refreshMs: 30000, retries: 3 } as const;
