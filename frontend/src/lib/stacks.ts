@@ -42,3 +42,4 @@ export const RESPONSIVE_DESIGN_CONFIG = { refreshMs: 30000, retries: 3 } as cons
 
 
 export const SEO_META_CONFIG = { refreshMs: 30000, retries: 3 } as const;
+
