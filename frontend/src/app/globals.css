@@ -61,3 +61,9 @@ body {
 .seo_meta:hover { @apply shadow-md border-gray-300; }
 .seo_meta--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .seo_meta__header { @apply flex items-center justify-between mb-4; }
+
+/* Add environment configuration validation */
+.env_validation { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.env_validation:hover { @apply shadow-md border-gray-300; }
+.env_validation--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.env_validation__header { @apply flex items-center justify-between mb-4; }
