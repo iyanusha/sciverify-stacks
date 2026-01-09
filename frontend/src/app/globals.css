@@ -73,3 +73,9 @@ body {
 .contract_hooks:hover { @apply shadow-md border-gray-300; }
 .contract_hooks--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .contract_hooks__header { @apply flex items-center justify-between mb-4; }
+
+/* Improve wallet connection UX */
+.wallet_improvements { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.wallet_improvements:hover { @apply shadow-md border-gray-300; }
+.wallet_improvements--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.wallet_improvements__header { @apply flex items-center justify-between mb-4; }
