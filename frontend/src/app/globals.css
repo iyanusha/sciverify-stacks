@@ -85,3 +85,9 @@ body {
 .publication_ui:hover { @apply shadow-md border-gray-300; }
 .publication_ui--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .publication_ui__header { @apply flex items-center justify-between mb-4; }
+
+/* Add peer review submission UI */
+.review_ui { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.review_ui:hover { @apply shadow-md border-gray-300; }
+.review_ui--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.review_ui__header { @apply flex items-center justify-between mb-4; }
