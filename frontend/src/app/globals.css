@@ -163,3 +163,9 @@ body {
 .voting_ui:hover { @apply shadow-md border-gray-300; }
 .voting_ui--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .voting_ui__header { @apply flex items-center justify-between mb-4; }
+
+/* Add proposal creation form */
+.proposal_form { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.proposal_form:hover { @apply shadow-md border-gray-300; }
+.proposal_form--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.proposal_form__header { @apply flex items-center justify-between mb-4; }
