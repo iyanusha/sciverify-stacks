@@ -93,3 +93,5 @@ export const VOTING_UI_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
 
 export const PROPOSAL_FORM_CONFIG = { refreshMs: 30000, retries: 3 } as const;
+
+export const TEST_PUBLICATION_CONFIG = { refreshMs: 30000, retries: 3 } as const;
