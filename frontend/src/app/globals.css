@@ -181,3 +181,9 @@ body {
 .test_review:hover { @apply shadow-md border-gray-300; }
 .test_review--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .test_review__header { @apply flex items-center justify-between mb-4; }
+
+/* Add governance contract tests */
+.test_governance { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.test_governance:hover { @apply shadow-md border-gray-300; }
+.test_governance--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.test_governance__header { @apply flex items-center justify-between mb-4; }
