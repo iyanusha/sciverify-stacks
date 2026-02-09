@@ -199,3 +199,9 @@ body {
 .test_reputation:hover { @apply shadow-md border-gray-300; }
 .test_reputation--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .test_reputation__header { @apply flex items-center justify-between mb-4; }
+
+/* Add favicon and app branding */
+.favicon_branding { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.favicon_branding:hover { @apply shadow-md border-gray-300; }
+.favicon_branding--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.favicon_branding__header { @apply flex items-center justify-between mb-4; }
