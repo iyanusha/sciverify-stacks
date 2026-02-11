@@ -211,3 +211,9 @@ body {
 .manifest_pwa:hover { @apply shadow-md border-gray-300; }
 .manifest_pwa--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .manifest_pwa__header { @apply flex items-center justify-between mb-4; }
+
+/* Add OG and Twitter card meta */
+.og_twitter { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.og_twitter:hover { @apply shadow-md border-gray-300; }
+.og_twitter--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.og_twitter__header { @apply flex items-center justify-between mb-4; }
