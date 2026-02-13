@@ -119,3 +119,5 @@ export const OG_TWITTER_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
 export const ROBOTS_SITEMAP_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
+
+export const CANONICAL_URLS_CONFIG = { refreshMs: 30000, retries: 3 } as const;
