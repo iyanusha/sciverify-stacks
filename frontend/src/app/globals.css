@@ -229,3 +229,9 @@ body {
 .canonical_urls:hover { @apply shadow-md border-gray-300; }
 .canonical_urls--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .canonical_urls__header { @apply flex items-center justify-between mb-4; }
+
+/* Add mobile navigation menu */
+.mobile_menu { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.mobile_menu:hover { @apply shadow-md border-gray-300; }
+.mobile_menu--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.mobile_menu__header { @apply flex items-center justify-between mb-4; }
