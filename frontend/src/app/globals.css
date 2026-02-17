@@ -235,3 +235,9 @@ body {
 .mobile_menu:hover { @apply shadow-md border-gray-300; }
 .mobile_menu--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .mobile_menu__header { @apply flex items-center justify-between mb-4; }
+
+/* Add keyboard navigation support */
+.keyboard_nav { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.keyboard_nav:hover { @apply shadow-md border-gray-300; }
+.keyboard_nav--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.keyboard_nav__header { @apply flex items-center justify-between mb-4; }
