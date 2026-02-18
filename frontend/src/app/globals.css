@@ -241,3 +241,9 @@ body {
 .keyboard_nav:hover { @apply shadow-md border-gray-300; }
 .keyboard_nav--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .keyboard_nav__header { @apply flex items-center justify-between mb-4; }
+
+/* Add focus management utilities */
+.focus_management { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.focus_management:hover { @apply shadow-md border-gray-300; }
+.focus_management--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.focus_management__header { @apply flex items-center justify-between mb-4; }
