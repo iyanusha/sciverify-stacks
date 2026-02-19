@@ -247,3 +247,9 @@ body {
 .focus_management:hover { @apply shadow-md border-gray-300; }
 .focus_management--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .focus_management__header { @apply flex items-center justify-between mb-4; }
+
+/* Add screen reader improvements */
+.screen_reader { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.screen_reader:hover { @apply shadow-md border-gray-300; }
+.screen_reader--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.screen_reader__header { @apply flex items-center justify-between mb-4; }
