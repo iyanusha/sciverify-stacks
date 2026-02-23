@@ -259,3 +259,9 @@ body {
 .high_contrast:hover { @apply shadow-md border-gray-300; }
 .high_contrast--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .high_contrast__header { @apply flex items-center justify-between mb-4; }
+
+/* Organize code into modules */
+.code_organize { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.code_organize:hover { @apply shadow-md border-gray-300; }
+.code_organize--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.code_organize__header { @apply flex items-center justify-between mb-4; }
