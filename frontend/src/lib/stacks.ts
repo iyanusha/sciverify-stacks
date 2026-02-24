@@ -138,3 +138,5 @@ export const HIGH_CONTRAST_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
 export const CODE_ORGANIZE_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
+
+export const CONSTANTS_CONFIG_CONFIG = { refreshMs: 30000, retries: 3 } as const;
