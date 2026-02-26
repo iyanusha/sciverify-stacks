@@ -144,3 +144,5 @@ export const CONSTANTS_CONFIG_CONFIG = { refreshMs: 30000, retries: 3 } as const
 
 export const BARREL_EXPORTS_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
+
+export const TYPE_GUARDS_CONFIG = { refreshMs: 30000, retries: 3 } as const;
