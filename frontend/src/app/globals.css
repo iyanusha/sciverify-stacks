@@ -289,3 +289,9 @@ body {
 .utility_helpers:hover { @apply shadow-md border-gray-300; }
 .utility_helpers--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .utility_helpers__header { @apply flex items-center justify-between mb-4; }
+
+/* Add lazy loading for pages */
+.lazy_components { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.lazy_components:hover { @apply shadow-md border-gray-300; }
+.lazy_components--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.lazy_components__header { @apply flex items-center justify-between mb-4; }
