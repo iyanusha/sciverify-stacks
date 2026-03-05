@@ -307,3 +307,9 @@ body {
 .performance_utils:hover { @apply shadow-md border-gray-300; }
 .performance_utils--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .performance_utils__header { @apply flex items-center justify-between mb-4; }
+
+/* Add image optimization */
+.image_optimize { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.image_optimize:hover { @apply shadow-md border-gray-300; }
+.image_optimize--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.image_optimize__header { @apply flex items-center justify-between mb-4; }
