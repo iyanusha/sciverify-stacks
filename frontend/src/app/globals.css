@@ -325,3 +325,9 @@ body {
 .nav_improvements:hover { @apply shadow-md border-gray-300; }
 .nav_improvements--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .nav_improvements__header { @apply flex items-center justify-between mb-4; }
+
+/* Fix footer links and content */
+.footer_links { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.footer_links:hover { @apply shadow-md border-gray-300; }
+.footer_links--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.footer_links__header { @apply flex items-center justify-between mb-4; }
