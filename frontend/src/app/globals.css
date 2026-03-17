@@ -355,3 +355,9 @@ body {
 .badge_tags:hover { @apply shadow-md border-gray-300; }
 .badge_tags--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .badge_tags__header { @apply flex items-center justify-between mb-4; }
+
+/* Add tooltip and popover */
+.tooltip_popover { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.tooltip_popover:hover { @apply shadow-md border-gray-300; }
+.tooltip_popover--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.tooltip_popover__header { @apply flex items-center justify-between mb-4; }
