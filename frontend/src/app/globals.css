@@ -367,3 +367,9 @@ body {
 .table_component:hover { @apply shadow-md border-gray-300; }
 .table_component--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .table_component__header { @apply flex items-center justify-between mb-4; }
+
+/* Add pagination component */
+.pagination { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.pagination:hover { @apply shadow-md border-gray-300; }
+.pagination--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.pagination__header { @apply flex items-center justify-between mb-4; }
