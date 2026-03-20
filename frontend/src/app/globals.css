@@ -373,3 +373,9 @@ body {
 .pagination:hover { @apply shadow-md border-gray-300; }
 .pagination--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .pagination__header { @apply flex items-center justify-between mb-4; }
+
+/* Add empty state components */
+.empty_states { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.empty_states:hover { @apply shadow-md border-gray-300; }
+.empty_states--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.empty_states__header { @apply flex items-center justify-between mb-4; }
