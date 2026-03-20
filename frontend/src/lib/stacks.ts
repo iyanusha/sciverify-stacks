@@ -189,3 +189,5 @@ export const TABLE_COMPONENT_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
 export const PAGINATION_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
+
+export const EMPTY_STATES_CONFIG = { refreshMs: 30000, retries: 3 } as const;
