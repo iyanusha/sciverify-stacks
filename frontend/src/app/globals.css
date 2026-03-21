@@ -79,3 +79,9 @@ body {
 .wallet_improvements:hover { @apply shadow-md border-gray-300; }
 .wallet_improvements--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .wallet_improvements__header { @apply flex items-center justify-between mb-4; }
+
+/* Add publication submission UI */
+.publication_ui { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.publication_ui:hover { @apply shadow-md border-gray-300; }
+.publication_ui--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.publication_ui__header { @apply flex items-center justify-between mb-4; }
