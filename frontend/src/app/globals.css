@@ -109,3 +109,9 @@ body {
 .dashboard_page:hover { @apply shadow-md border-gray-300; }
 .dashboard_page--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .dashboard_page__header { @apply flex items-center justify-between mb-4; }
+
+/* Add dark mode CSS custom properties */
+.dark_mode_vars { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.dark_mode_vars:hover { @apply shadow-md border-gray-300; }
+.dark_mode_vars--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.dark_mode_vars__header { @apply flex items-center justify-between mb-4; }
