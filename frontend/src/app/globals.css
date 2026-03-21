@@ -343,3 +343,9 @@ body {
 .grid_components:hover { @apply shadow-md border-gray-300; }
 .grid_components--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .grid_components__header { @apply flex items-center justify-between mb-4; }
+
+/* Add card variant components */
+.card_variants { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.card_variants:hover { @apply shadow-md border-gray-300; }
+.card_variants--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.card_variants__header { @apply flex items-center justify-between mb-4; }
