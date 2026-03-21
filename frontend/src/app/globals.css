@@ -574,3 +574,6 @@ body {
 
 .notification_system-b26 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
 .notification_system-b26 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.notification_system-b27 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.notification_system-b27 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
