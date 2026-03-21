@@ -619,3 +619,33 @@ body {
 
 .settings_page-b47 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
 .settings_page-b47 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.help_docs-b6 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.help_docs-b6 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.help_docs-b7 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.help_docs-b7 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.help_docs-b16 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.help_docs-b16 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.help_docs-b17 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.help_docs-b17 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.help_docs-b26 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.help_docs-b26 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.help_docs-b27 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.help_docs-b27 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.help_docs-b36 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.help_docs-b36 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.help_docs-b37 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.help_docs-b37 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.help_docs-b46 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.help_docs-b46 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.help_docs-b47 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.help_docs-b47 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
