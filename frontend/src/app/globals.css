@@ -301,3 +301,9 @@ body {
 .memoization:hover { @apply shadow-md border-gray-300; }
 .memoization--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .memoization__header { @apply flex items-center justify-between mb-4; }
+
+/* Add performance utilities */
+.performance_utils { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.performance_utils:hover { @apply shadow-md border-gray-300; }
+.performance_utils--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.performance_utils__header { @apply flex items-center justify-between mb-4; }
