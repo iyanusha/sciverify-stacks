@@ -277,3 +277,9 @@ body {
 .barrel_exports:hover { @apply shadow-md border-gray-300; }
 .barrel_exports--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .barrel_exports__header { @apply flex items-center justify-between mb-4; }
+
+/* Add TypeScript type guards */
+.type_guards { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.type_guards:hover { @apply shadow-md border-gray-300; }
+.type_guards--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.type_guards__header { @apply flex items-center justify-between mb-4; }
