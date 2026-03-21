@@ -141,3 +141,6 @@ export const CODE_ORGANIZE_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
 export const CONSTANTS_CONFIG_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
+
+export const BARREL_EXPORTS_CONFIG = { refreshMs: 30000, retries: 3 } as const;
+

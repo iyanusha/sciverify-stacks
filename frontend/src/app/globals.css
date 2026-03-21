@@ -271,3 +271,9 @@ body {
 .constants_config:hover { @apply shadow-md border-gray-300; }
 .constants_config--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .constants_config__header { @apply flex items-center justify-between mb-4; }
+
+/* Add barrel export files */
+.barrel_exports { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.barrel_exports:hover { @apply shadow-md border-gray-300; }
+.barrel_exports--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.barrel_exports__header { @apply flex items-center justify-between mb-4; }
