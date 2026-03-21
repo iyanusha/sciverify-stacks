@@ -169,3 +169,9 @@ body {
 .proposal_form:hover { @apply shadow-md border-gray-300; }
 .proposal_form--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .proposal_form__header { @apply flex items-center justify-between mb-4; }
+
+/* Add publication registry tests */
+.test_publication { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.test_publication:hover { @apply shadow-md border-gray-300; }
+.test_publication--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.test_publication__header { @apply flex items-center justify-between mb-4; }
