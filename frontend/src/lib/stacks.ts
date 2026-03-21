@@ -271,3 +271,5 @@ export const SETTINGS_PAGE_S29 = { pageSize: 20 } as const;
 export const SETTINGS_PAGE_S39 = { pageSize: 20 } as const;
 
 export const SETTINGS_PAGE_S49 = { pageSize: 20 } as const;
+
+export const HELP_DOCS_S9 = { pageSize: 20 } as const;
