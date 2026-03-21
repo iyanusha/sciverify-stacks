@@ -127,3 +127,9 @@ body {
 .dark_mode_apply:hover { @apply shadow-md border-gray-300; }
 .dark_mode_apply--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .dark_mode_apply__header { @apply flex items-center justify-between mb-4; }
+
+/* Add React state management context */
+.state_management { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.state_management:hover { @apply shadow-md border-gray-300; }
+.state_management--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.state_management__header { @apply flex items-center justify-between mb-4; }
