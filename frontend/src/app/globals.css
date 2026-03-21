@@ -553,3 +553,6 @@ body {
 
 .search_engine-b37 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
 .search_engine-b37 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.search_engine-b46 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.search_engine-b46 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
