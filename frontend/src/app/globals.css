@@ -193,3 +193,9 @@ body {
 .test_credential:hover { @apply shadow-md border-gray-300; }
 .test_credential--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .test_credential__header { @apply flex items-center justify-between mb-4; }
+
+/* Add reputation token tests */
+.test_reputation { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.test_reputation:hover { @apply shadow-md border-gray-300; }
+.test_reputation--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.test_reputation__header { @apply flex items-center justify-between mb-4; }
