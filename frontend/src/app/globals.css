@@ -445,3 +445,6 @@ body {
 
 .governance_hub-b7 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
 .governance_hub-b7 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.governance_hub-b16 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.governance_hub-b16 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
