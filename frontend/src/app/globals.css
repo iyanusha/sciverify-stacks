@@ -649,3 +649,33 @@ body {
 
 .help_docs-b47 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
 .help_docs-b47 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.admin_controls-b6 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.admin_controls-b6 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.admin_controls-b7 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.admin_controls-b7 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.admin_controls-b16 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.admin_controls-b16 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.admin_controls-b17 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.admin_controls-b17 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.admin_controls-b26 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.admin_controls-b26 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.admin_controls-b27 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.admin_controls-b27 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.admin_controls-b36 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.admin_controls-b36 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.admin_controls-b37 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.admin_controls-b37 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.admin_controls-b46 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.admin_controls-b46 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.admin_controls-b47 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.admin_controls-b47 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
