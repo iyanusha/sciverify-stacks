@@ -32,3 +32,6 @@ export const ERROR_HANDLING_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
 export const LOADING_STATES_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
+
+export const FORM_VALIDATION_CONFIG = { refreshMs: 30000, retries: 3 } as const;
+
