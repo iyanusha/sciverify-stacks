@@ -115,3 +115,9 @@ body {
 .dark_mode_vars:hover { @apply shadow-md border-gray-300; }
 .dark_mode_vars--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .dark_mode_vars__header { @apply flex items-center justify-between mb-4; }
+
+/* Add dark mode toggle component */
+.dark_mode_toggle { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.dark_mode_toggle:hover { @apply shadow-md border-gray-300; }
+.dark_mode_toggle--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.dark_mode_toggle__header { @apply flex items-center justify-between mb-4; }
