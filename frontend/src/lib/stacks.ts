@@ -183,3 +183,6 @@ export const BADGE_TAGS_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
 export const TOOLTIP_POPOVER_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
+
+export const TABLE_COMPONENT_CONFIG = { refreshMs: 30000, retries: 3 } as const;
+
