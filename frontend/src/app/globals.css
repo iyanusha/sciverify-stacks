@@ -31,3 +31,9 @@ body {
 .error_handling:hover { @apply shadow-md border-gray-300; }
 .error_handling--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .error_handling__header { @apply flex items-center justify-between mb-4; }
+
+/* Add loading states and skeleton loaders */
+.loading_states { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.loading_states:hover { @apply shadow-md border-gray-300; }
+.loading_states--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.loading_states__header { @apply flex items-center justify-between mb-4; }
