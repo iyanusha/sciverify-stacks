@@ -77,3 +77,5 @@ export const DARK_MODE_APPLY_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
 export const STATE_MANAGEMENT_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
+
+export const API_ROUTES_CONFIG = { refreshMs: 30000, retries: 3 } as const;

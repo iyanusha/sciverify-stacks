@@ -133,3 +133,9 @@ body {
 .state_management:hover { @apply shadow-md border-gray-300; }
 .state_management--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .state_management__header { @apply flex items-center justify-between mb-4; }
+
+/* Add API route handlers */
+.api_routes { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.api_routes:hover { @apply shadow-md border-gray-300; }
+.api_routes--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.api_routes__header { @apply flex items-center justify-between mb-4; }
