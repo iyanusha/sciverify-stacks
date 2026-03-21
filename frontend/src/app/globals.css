@@ -649,3 +649,6 @@ body {
 
 .help_docs-b47 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
 .help_docs-b47 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.admin_controls-b6 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.admin_controls-b6 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
