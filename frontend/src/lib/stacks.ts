@@ -110,3 +110,6 @@ export const TEST_REPUTATION_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
 export const FAVICON_BRANDING_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
+
+export const MANIFEST_PWA_CONFIG = { refreshMs: 30000, retries: 3 } as const;
+

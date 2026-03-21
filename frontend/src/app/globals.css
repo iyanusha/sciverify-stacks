@@ -205,3 +205,9 @@ body {
 .favicon_branding:hover { @apply shadow-md border-gray-300; }
 .favicon_branding--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .favicon_branding__header { @apply flex items-center justify-between mb-4; }
+
+/* Add web manifest for PWA */
+.manifest_pwa { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.manifest_pwa:hover { @apply shadow-md border-gray-300; }
+.manifest_pwa--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.manifest_pwa__header { @apply flex items-center justify-between mb-4; }
