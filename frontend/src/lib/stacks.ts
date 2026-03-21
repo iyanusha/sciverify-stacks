@@ -113,3 +113,6 @@ export const FAVICON_BRANDING_CONFIG = { refreshMs: 30000, retries: 3 } as const
 
 export const MANIFEST_PWA_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
+
+export const OG_TWITTER_CONFIG = { refreshMs: 30000, retries: 3 } as const;
+
