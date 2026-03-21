@@ -243,3 +243,5 @@ export const REPUTATION_ANALYTICS_S39 = { pageSize: 20 } as const;
 export const REPUTATION_ANALYTICS_S49 = { pageSize: 20 } as const;
 
 export const SEARCH_ENGINE_S9 = { pageSize: 20 } as const;
+
+export const SEARCH_ENGINE_S19 = { pageSize: 20 } as const;
