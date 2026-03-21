@@ -102,3 +102,6 @@ export const TEST_REVIEW_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
 export const TEST_GOVERNANCE_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
+
+export const TEST_CREDENTIAL_CONFIG = { refreshMs: 30000, retries: 3 } as const;
+

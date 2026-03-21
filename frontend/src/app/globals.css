@@ -187,3 +187,9 @@ body {
 .test_governance:hover { @apply shadow-md border-gray-300; }
 .test_governance--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .test_governance__header { @apply flex items-center justify-between mb-4; }
+
+/* Add credential verification tests */
+.test_credential { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.test_credential:hover { @apply shadow-md border-gray-300; }
+.test_credential--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.test_credential__header { @apply flex items-center justify-between mb-4; }
