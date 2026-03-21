@@ -55,3 +55,9 @@ body {
 .responsive_design:hover { @apply shadow-md border-gray-300; }
 .responsive_design--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .responsive_design__header { @apply flex items-center justify-between mb-4; }
+
+/* Add SEO meta tags and structured data */
+.seo_meta { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.seo_meta:hover { @apply shadow-md border-gray-300; }
+.seo_meta--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.seo_meta__header { @apply flex items-center justify-between mb-4; }
