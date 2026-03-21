@@ -337,3 +337,9 @@ body {
 .layout_system:hover { @apply shadow-md border-gray-300; }
 .layout_system--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .layout_system__header { @apply flex items-center justify-between mb-4; }
+
+/* Add responsive grid components */
+.grid_components { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.grid_components:hover { @apply shadow-md border-gray-300; }
+.grid_components--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.grid_components__header { @apply flex items-center justify-between mb-4; }
