@@ -97,3 +97,9 @@ body {
 .governance_ui:hover { @apply shadow-md border-gray-300; }
 .governance_ui--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .governance_ui__header { @apply flex items-center justify-between mb-4; }
+
+/* Add credential verification UI */
+.credential_ui { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.credential_ui:hover { @apply shadow-md border-gray-300; }
+.credential_ui--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.credential_ui__header { @apply flex items-center justify-between mb-4; }
