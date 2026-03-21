@@ -139,3 +139,9 @@ body {
 .api_routes:hover { @apply shadow-md border-gray-300; }
 .api_routes--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .api_routes__header { @apply flex items-center justify-between mb-4; }
+
+/* Add reputation token display */
+.reputation_display { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.reputation_display:hover { @apply shadow-md border-gray-300; }
+.reputation_display--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.reputation_display__header { @apply flex items-center justify-between mb-4; }
