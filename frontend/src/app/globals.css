@@ -499,3 +499,33 @@ body {
 
 .credential_manager-b47 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
 .credential_manager-b47 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.reputation_analytics-b6 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.reputation_analytics-b6 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.reputation_analytics-b7 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.reputation_analytics-b7 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.reputation_analytics-b16 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.reputation_analytics-b16 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.reputation_analytics-b17 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.reputation_analytics-b17 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.reputation_analytics-b26 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.reputation_analytics-b26 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.reputation_analytics-b27 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.reputation_analytics-b27 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.reputation_analytics-b36 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.reputation_analytics-b36 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.reputation_analytics-b37 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.reputation_analytics-b37 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.reputation_analytics-b46 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.reputation_analytics-b46 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+.reputation_analytics-b47 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.reputation_analytics-b47 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
