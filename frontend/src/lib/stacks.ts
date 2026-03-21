@@ -219,3 +219,5 @@ export const GOVERNANCE_HUB_S19 = { pageSize: 20 } as const;
 export const GOVERNANCE_HUB_S29 = { pageSize: 20 } as const;
 
 export const GOVERNANCE_HUB_S39 = { pageSize: 20 } as const;
+
+export const GOVERNANCE_HUB_S49 = { pageSize: 20 } as const;
