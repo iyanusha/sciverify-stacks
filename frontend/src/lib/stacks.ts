@@ -193,3 +193,5 @@ export const PAGINATION_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 export const EMPTY_STATES_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
 export const PUBLICATION_DASHBOARD_S9 = { pageSize: 20 } as const;
+
+export const PUBLICATION_DASHBOARD_S19 = { pageSize: 20 } as const;
