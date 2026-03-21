@@ -211,3 +211,13 @@ export const REVIEW_DASHBOARD_S29 = { pageSize: 20 } as const;
 export const REVIEW_DASHBOARD_S39 = { pageSize: 20 } as const;
 
 export const REVIEW_DASHBOARD_S49 = { pageSize: 20 } as const;
+
+export const GOVERNANCE_HUB_S9 = { pageSize: 20 } as const;
+
+export const GOVERNANCE_HUB_S19 = { pageSize: 20 } as const;
+
+export const GOVERNANCE_HUB_S29 = { pageSize: 20 } as const;
+
+export const GOVERNANCE_HUB_S39 = { pageSize: 20 } as const;
+
+export const GOVERNANCE_HUB_S49 = { pageSize: 20 } as const;
