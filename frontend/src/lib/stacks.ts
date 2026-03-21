@@ -127,3 +127,6 @@ export const MOBILE_MENU_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
 export const KEYBOARD_NAV_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
+
+export const FOCUS_MANAGEMENT_CONFIG = { refreshMs: 30000, retries: 3 } as const;
+
