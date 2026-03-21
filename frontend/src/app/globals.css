@@ -43,3 +43,9 @@ body {
 .form_validation:hover { @apply shadow-md border-gray-300; }
 .form_validation--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .form_validation__header { @apply flex items-center justify-between mb-4; }
+
+/* Improve accessibility with ARIA labels */
+.accessibility { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.accessibility:hover { @apply shadow-md border-gray-300; }
+.accessibility--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.accessibility__header { @apply flex items-center justify-between mb-4; }
