@@ -251,3 +251,5 @@ export const SEARCH_ENGINE_S29 = { pageSize: 20 } as const;
 export const SEARCH_ENGINE_S39 = { pageSize: 20 } as const;
 
 export const SEARCH_ENGINE_S49 = { pageSize: 20 } as const;
+
+export const NOTIFICATION_SYSTEM_S9 = { pageSize: 20 } as const;
