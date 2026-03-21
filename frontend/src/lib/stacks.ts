@@ -166,3 +166,6 @@ export const BUNDLE_CONFIG_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
 export const NAV_IMPROVEMENTS_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
+
+export const FOOTER_LINKS_CONFIG = { refreshMs: 30000, retries: 3 } as const;
+
