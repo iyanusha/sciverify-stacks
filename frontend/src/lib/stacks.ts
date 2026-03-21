@@ -91,3 +91,5 @@ export const TOKEN_DISPLAY_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
 export const VOTING_UI_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
+
+export const PROPOSAL_FORM_CONFIG = { refreshMs: 30000, retries: 3 } as const;
