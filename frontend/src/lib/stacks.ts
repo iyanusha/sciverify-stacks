@@ -107,3 +107,6 @@ export const TEST_CREDENTIAL_CONFIG = { refreshMs: 30000, retries: 3 } as const;
 
 
 export const TEST_REPUTATION_CONFIG = { refreshMs: 30000, retries: 3 } as const;
+
+export const FAVICON_BRANDING_CONFIG = { refreshMs: 30000, retries: 3 } as const;
+
