@@ -253,3 +253,9 @@ body {
 .screen_reader:hover { @apply shadow-md border-gray-300; }
 .screen_reader--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .screen_reader__header { @apply flex items-center justify-between mb-4; }
+
+/* Add high contrast mode */
+.high_contrast { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.high_contrast:hover { @apply shadow-md border-gray-300; }
+.high_contrast--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.high_contrast__header { @apply flex items-center justify-between mb-4; }
