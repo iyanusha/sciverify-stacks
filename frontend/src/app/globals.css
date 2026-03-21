@@ -379,3 +379,6 @@ body {
 .empty_states:hover { @apply shadow-md border-gray-300; }
 .empty_states--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .empty_states__header { @apply flex items-center justify-between mb-4; }
+
+.publication_dashboard-b6 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.publication_dashboard-b6 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
