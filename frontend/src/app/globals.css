@@ -313,3 +313,9 @@ body {
 .image_optimize:hover { @apply shadow-md border-gray-300; }
 .image_optimize--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .image_optimize__header { @apply flex items-center justify-between mb-4; }
+
+/* Add bundle configuration */
+.bundle_config { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.bundle_config:hover { @apply shadow-md border-gray-300; }
+.bundle_config--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.bundle_config__header { @apply flex items-center justify-between mb-4; }
