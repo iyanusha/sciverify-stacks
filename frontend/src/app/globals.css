@@ -67,3 +67,9 @@ body {
 .env_validation:hover { @apply shadow-md border-gray-300; }
 .env_validation--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .env_validation__header { @apply flex items-center justify-between mb-4; }
+
+/* Add contract interaction hooks */
+.contract_hooks { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.contract_hooks:hover { @apply shadow-md border-gray-300; }
+.contract_hooks--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.contract_hooks__header { @apply flex items-center justify-between mb-4; }
