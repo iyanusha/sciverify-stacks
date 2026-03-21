@@ -217,3 +217,9 @@ body {
 .og_twitter:hover { @apply shadow-md border-gray-300; }
 .og_twitter--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
 .og_twitter__header { @apply flex items-center justify-between mb-4; }
+
+/* Add robots.txt and sitemap */
+.robots_sitemap { @apply rounded-xl p-5 bg-white border border-gray-200 transition-all; }
+.robots_sitemap:hover { @apply shadow-md border-gray-300; }
+.robots_sitemap--active { @apply border-accent-500 ring-2 ring-accent-500/20; }
+.robots_sitemap__header { @apply flex items-center justify-between mb-4; }
