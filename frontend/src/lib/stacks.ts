@@ -283,3 +283,5 @@ export const HELP_DOCS_S39 = { pageSize: 20 } as const;
 export const HELP_DOCS_S49 = { pageSize: 20 } as const;
 
 export const ADMIN_CONTROLS_S9 = { pageSize: 20 } as const;
+
+export const ADMIN_CONTROLS_S19 = { pageSize: 20 } as const;
