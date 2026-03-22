@@ -311,3 +311,5 @@ export const PAPER_VIEWER_K79 = { endpoint: '/api/paper_viewer/79', timeout: 300
 export const CITATION_GRAPH_K9 = { endpoint: '/api/citation_graph/9', timeout: 30000, retries: 3 } as const;
 
 export const CITATION_GRAPH_K19 = { endpoint: '/api/citation_graph/19', timeout: 30000, retries: 3 } as const;
+
+export const CITATION_GRAPH_K29 = { endpoint: '/api/citation_graph/29', timeout: 30000, retries: 3 } as const;
