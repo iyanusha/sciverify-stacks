@@ -393,3 +393,5 @@ export const DATASET_VIEWER_K9 = { endpoint: '/api/dataset_viewer/9', timeout: 3
 export const DATASET_VIEWER_K19 = { endpoint: '/api/dataset_viewer/19', timeout: 30000, retries: 3 } as const;
 
 export const DATASET_VIEWER_K29 = { endpoint: '/api/dataset_viewer/29', timeout: 30000, retries: 3 } as const;
+
+export const DATASET_VIEWER_K39 = { endpoint: '/api/dataset_viewer/39', timeout: 30000, retries: 3 } as const;
