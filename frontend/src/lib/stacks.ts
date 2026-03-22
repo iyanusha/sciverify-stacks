@@ -447,3 +447,5 @@ export const RESEARCH_FEED_K39 = { endpoint: '/api/research_feed/39', timeout: 3
 export const RESEARCH_FEED_K49 = { endpoint: '/api/research_feed/49', timeout: 30000, retries: 3 } as const;
 
 export const RESEARCH_FEED_K59 = { endpoint: '/api/research_feed/59', timeout: 30000, retries: 3 } as const;
+
+export const RESEARCH_FEED_K69 = { endpoint: '/api/research_feed/69', timeout: 30000, retries: 3 } as const;
