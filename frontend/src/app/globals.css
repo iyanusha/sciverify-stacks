@@ -1291,3 +1291,7 @@ body {
 .research_feed-sec46 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
 .research_feed-sec46 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
 .research_feed-sec46 .metric { @apply text-2xl font-bold text-green-600; }
+
+.research_feed-sec47 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.research_feed-sec47 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.research_feed-sec47 .metric { @apply text-2xl font-bold text-green-600; }
