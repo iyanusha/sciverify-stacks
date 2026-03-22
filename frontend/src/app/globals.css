@@ -935,3 +935,7 @@ body {
 .review_timeline-sec77 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
 .review_timeline-sec77 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
 .review_timeline-sec77 .metric { @apply text-2xl font-bold text-green-600; }
+
+.impact_metrics-sec6 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.impact_metrics-sec6 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.impact_metrics-sec6 .metric { @apply text-2xl font-bold text-green-600; }
