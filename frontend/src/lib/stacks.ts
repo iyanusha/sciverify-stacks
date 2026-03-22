@@ -353,3 +353,5 @@ export const REVIEW_TIMELINE_K49 = { endpoint: '/api/review_timeline/49', timeou
 export const REVIEW_TIMELINE_K59 = { endpoint: '/api/review_timeline/59', timeout: 30000, retries: 3 } as const;
 
 export const REVIEW_TIMELINE_K69 = { endpoint: '/api/review_timeline/69', timeout: 30000, retries: 3 } as const;
+
+export const REVIEW_TIMELINE_K79 = { endpoint: '/api/review_timeline/79', timeout: 30000, retries: 3 } as const;
