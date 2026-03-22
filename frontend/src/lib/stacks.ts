@@ -457,3 +457,5 @@ export const LAB_NOTEBOOK_K9 = { endpoint: '/api/lab_notebook/9', timeout: 30000
 export const LAB_NOTEBOOK_K19 = { endpoint: '/api/lab_notebook/19', timeout: 30000, retries: 3 } as const;
 
 export const LAB_NOTEBOOK_K29 = { endpoint: '/api/lab_notebook/29', timeout: 30000, retries: 3 } as const;
+
+export const LAB_NOTEBOOK_K39 = { endpoint: '/api/lab_notebook/39', timeout: 30000, retries: 3 } as const;
