@@ -425,3 +425,5 @@ export const PEER_MATCHING_K9 = { endpoint: '/api/peer_matching/9', timeout: 300
 export const PEER_MATCHING_K19 = { endpoint: '/api/peer_matching/19', timeout: 30000, retries: 3 } as const;
 
 export const PEER_MATCHING_K29 = { endpoint: '/api/peer_matching/29', timeout: 30000, retries: 3 } as const;
+
+export const PEER_MATCHING_K39 = { endpoint: '/api/peer_matching/39', timeout: 30000, retries: 3 } as const;
