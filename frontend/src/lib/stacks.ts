@@ -321,3 +321,5 @@ export const CITATION_GRAPH_K49 = { endpoint: '/api/citation_graph/49', timeout:
 export const CITATION_GRAPH_K59 = { endpoint: '/api/citation_graph/59', timeout: 30000, retries: 3 } as const;
 
 export const CITATION_GRAPH_K69 = { endpoint: '/api/citation_graph/69', timeout: 30000, retries: 3 } as const;
+
+export const CITATION_GRAPH_K79 = { endpoint: '/api/citation_graph/79', timeout: 30000, retries: 3 } as const;
