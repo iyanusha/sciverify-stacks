@@ -361,3 +361,5 @@ export const IMPACT_METRICS_K9 = { endpoint: '/api/impact_metrics/9', timeout: 3
 export const IMPACT_METRICS_K19 = { endpoint: '/api/impact_metrics/19', timeout: 30000, retries: 3 } as const;
 
 export const IMPACT_METRICS_K29 = { endpoint: '/api/impact_metrics/29', timeout: 30000, retries: 3 } as const;
+
+export const IMPACT_METRICS_K39 = { endpoint: '/api/impact_metrics/39', timeout: 30000, retries: 3 } as const;
