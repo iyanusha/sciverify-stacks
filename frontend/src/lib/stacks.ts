@@ -333,3 +333,5 @@ export const AUTHOR_PROFILE_K29 = { endpoint: '/api/author_profile/29', timeout:
 export const AUTHOR_PROFILE_K39 = { endpoint: '/api/author_profile/39', timeout: 30000, retries: 3 } as const;
 
 export const AUTHOR_PROFILE_K49 = { endpoint: '/api/author_profile/49', timeout: 30000, retries: 3 } as const;
+
+export const AUTHOR_PROFILE_K59 = { endpoint: '/api/author_profile/59', timeout: 30000, retries: 3 } as const;
