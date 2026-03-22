@@ -899,3 +899,7 @@ body {
 .review_timeline-sec36 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
 .review_timeline-sec36 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
 .review_timeline-sec36 .metric { @apply text-2xl font-bold text-green-600; }
+
+.review_timeline-sec37 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.review_timeline-sec37 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.review_timeline-sec37 .metric { @apply text-2xl font-bold text-green-600; }
