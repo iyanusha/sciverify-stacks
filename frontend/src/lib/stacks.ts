@@ -303,3 +303,5 @@ export const PAPER_VIEWER_K39 = { endpoint: '/api/paper_viewer/39', timeout: 300
 export const PAPER_VIEWER_K49 = { endpoint: '/api/paper_viewer/49', timeout: 30000, retries: 3 } as const;
 
 export const PAPER_VIEWER_K59 = { endpoint: '/api/paper_viewer/59', timeout: 30000, retries: 3 } as const;
+
+export const PAPER_VIEWER_K69 = { endpoint: '/api/paper_viewer/69', timeout: 30000, retries: 3 } as const;
