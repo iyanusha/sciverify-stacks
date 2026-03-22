@@ -1247,3 +1247,7 @@ body {
 .peer_matching-sec67 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
 .peer_matching-sec67 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
 .peer_matching-sec67 .metric { @apply text-2xl font-bold text-green-600; }
+
+.peer_matching-sec76 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.peer_matching-sec76 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.peer_matching-sec76 .metric { @apply text-2xl font-bold text-green-600; }
