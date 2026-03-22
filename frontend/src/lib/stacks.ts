@@ -413,3 +413,5 @@ export const FUNDING_TRACKER_K29 = { endpoint: '/api/funding_tracker/29', timeou
 export const FUNDING_TRACKER_K39 = { endpoint: '/api/funding_tracker/39', timeout: 30000, retries: 3 } as const;
 
 export const FUNDING_TRACKER_K49 = { endpoint: '/api/funding_tracker/49', timeout: 30000, retries: 3 } as const;
+
+export const FUNDING_TRACKER_K59 = { endpoint: '/api/funding_tracker/59', timeout: 30000, retries: 3 } as const;
