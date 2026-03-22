@@ -405,3 +405,5 @@ export const DATASET_VIEWER_K69 = { endpoint: '/api/dataset_viewer/69', timeout:
 export const DATASET_VIEWER_K79 = { endpoint: '/api/dataset_viewer/79', timeout: 30000, retries: 3 } as const;
 
 export const FUNDING_TRACKER_K9 = { endpoint: '/api/funding_tracker/9', timeout: 30000, retries: 3 } as const;
+
+export const FUNDING_TRACKER_K19 = { endpoint: '/api/funding_tracker/19', timeout: 30000, retries: 3 } as const;
