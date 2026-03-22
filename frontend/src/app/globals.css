@@ -719,3 +719,7 @@ body {
 .paper_viewer-sec47 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
 .paper_viewer-sec47 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
 .paper_viewer-sec47 .metric { @apply text-2xl font-bold text-green-600; }
+
+.paper_viewer-sec56 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.paper_viewer-sec56 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.paper_viewer-sec56 .metric { @apply text-2xl font-bold text-green-600; }
