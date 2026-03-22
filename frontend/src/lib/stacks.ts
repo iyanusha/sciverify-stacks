@@ -385,3 +385,5 @@ export const COLLABORATION_TOOLS_K49 = { endpoint: '/api/collaboration_tools/49'
 export const COLLABORATION_TOOLS_K59 = { endpoint: '/api/collaboration_tools/59', timeout: 30000, retries: 3 } as const;
 
 export const COLLABORATION_TOOLS_K69 = { endpoint: '/api/collaboration_tools/69', timeout: 30000, retries: 3 } as const;
+
+export const COLLABORATION_TOOLS_K79 = { endpoint: '/api/collaboration_tools/79', timeout: 30000, retries: 3 } as const;
