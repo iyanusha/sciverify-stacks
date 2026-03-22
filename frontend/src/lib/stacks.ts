@@ -375,3 +375,5 @@ export const IMPACT_METRICS_K79 = { endpoint: '/api/impact_metrics/79', timeout:
 export const COLLABORATION_TOOLS_K9 = { endpoint: '/api/collaboration_tools/9', timeout: 30000, retries: 3 } as const;
 
 export const COLLABORATION_TOOLS_K19 = { endpoint: '/api/collaboration_tools/19', timeout: 30000, retries: 3 } as const;
+
+export const COLLABORATION_TOOLS_K29 = { endpoint: '/api/collaboration_tools/29', timeout: 30000, retries: 3 } as const;
