@@ -495,3 +495,5 @@ export const PREPRINT_SUBMIT_K39 = { endpoint: '/api/preprint_submit/39', timeou
 export const PREPRINT_SUBMIT_K49 = { endpoint: '/api/preprint_submit/49', timeout: 30000, retries: 3 } as const;
 
 export const PREPRINT_SUBMIT_K59 = { endpoint: '/api/preprint_submit/59', timeout: 30000, retries: 3 } as const;
+
+export const PREPRINT_SUBMIT_K69 = { endpoint: '/api/preprint_submit/69', timeout: 30000, retries: 3 } as const;
