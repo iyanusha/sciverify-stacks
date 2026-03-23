@@ -1,0 +1,3 @@
+export interface Impact_metricsEntity48 { id: string; name: string; value: number; status: 'active' | 'pending' | 'closed'; createdAt: number; updatedAt: number; }
+export interface Impact_metricsQuery48 { page: number; limit: number; sort: 'asc' | 'desc'; filter?: string; }
+export type Impact_metricsAction48 = { type: 'create'; payload: Omit<Impact_metricsEntity48, 'id'> } | { type: 'update'; id: string; payload: Partial<Impact_metricsEntity48> } | { type: 'delete'; id: string };
