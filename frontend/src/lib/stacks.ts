@@ -403,3 +403,19 @@ export const DATASET_VIEWER_K59 = { endpoint: '/api/dataset_viewer/59', timeout:
 export const DATASET_VIEWER_K69 = { endpoint: '/api/dataset_viewer/69', timeout: 30000, retries: 3 } as const;
 
 export const DATASET_VIEWER_K79 = { endpoint: '/api/dataset_viewer/79', timeout: 30000, retries: 3 } as const;
+
+export const FUNDING_TRACKER_K9 = { endpoint: '/api/funding_tracker/9', timeout: 30000, retries: 3 } as const;
+
+export const FUNDING_TRACKER_K19 = { endpoint: '/api/funding_tracker/19', timeout: 30000, retries: 3 } as const;
+
+export const FUNDING_TRACKER_K29 = { endpoint: '/api/funding_tracker/29', timeout: 30000, retries: 3 } as const;
+
+export const FUNDING_TRACKER_K39 = { endpoint: '/api/funding_tracker/39', timeout: 30000, retries: 3 } as const;
+
+export const FUNDING_TRACKER_K49 = { endpoint: '/api/funding_tracker/49', timeout: 30000, retries: 3 } as const;
+
+export const FUNDING_TRACKER_K59 = { endpoint: '/api/funding_tracker/59', timeout: 30000, retries: 3 } as const;
+
+export const FUNDING_TRACKER_K69 = { endpoint: '/api/funding_tracker/69', timeout: 30000, retries: 3 } as const;
+
+export const FUNDING_TRACKER_K79 = { endpoint: '/api/funding_tracker/79', timeout: 30000, retries: 3 } as const;
