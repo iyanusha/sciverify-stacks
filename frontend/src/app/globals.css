@@ -1543,3 +1543,7 @@ body {
 .reviewer_board-sec37 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
 .reviewer_board-sec37 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
 .reviewer_board-sec37 .metric { @apply text-2xl font-bold text-green-600; }
+
+.reviewer_board-sec46 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.reviewer_board-sec46 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.reviewer_board-sec46 .metric { @apply text-2xl font-bold text-green-600; }
