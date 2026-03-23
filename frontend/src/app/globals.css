@@ -1927,3 +1927,7 @@ body {
 .org_settings-sec37 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
 .org_settings-sec37 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
 .org_settings-sec37 .metric { @apply text-2xl font-bold text-green-600; }
+
+.org_settings-sec46 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.org_settings-sec46 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.org_settings-sec46 .metric { @apply text-2xl font-bold text-green-600; }
