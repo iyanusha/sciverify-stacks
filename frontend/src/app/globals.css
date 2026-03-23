@@ -1703,3 +1703,7 @@ body {
 .conf_calendar-sec77 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
 .conf_calendar-sec77 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
 .conf_calendar-sec77 .metric { @apply text-2xl font-bold text-green-600; }
+
+.ethics_review-sec6 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.ethics_review-sec6 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.ethics_review-sec6 .metric { @apply text-2xl font-bold text-green-600; }
