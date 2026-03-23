@@ -1575,3 +1575,67 @@ body {
 .reviewer_board-sec77 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
 .reviewer_board-sec77 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
 .reviewer_board-sec77 .metric { @apply text-2xl font-bold text-green-600; }
+
+.grant_proposals-sec6 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.grant_proposals-sec6 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.grant_proposals-sec6 .metric { @apply text-2xl font-bold text-green-600; }
+
+.grant_proposals-sec7 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.grant_proposals-sec7 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.grant_proposals-sec7 .metric { @apply text-2xl font-bold text-green-600; }
+
+.grant_proposals-sec16 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.grant_proposals-sec16 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.grant_proposals-sec16 .metric { @apply text-2xl font-bold text-green-600; }
+
+.grant_proposals-sec17 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.grant_proposals-sec17 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.grant_proposals-sec17 .metric { @apply text-2xl font-bold text-green-600; }
+
+.grant_proposals-sec26 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.grant_proposals-sec26 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.grant_proposals-sec26 .metric { @apply text-2xl font-bold text-green-600; }
+
+.grant_proposals-sec27 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.grant_proposals-sec27 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.grant_proposals-sec27 .metric { @apply text-2xl font-bold text-green-600; }
+
+.grant_proposals-sec36 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.grant_proposals-sec36 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.grant_proposals-sec36 .metric { @apply text-2xl font-bold text-green-600; }
+
+.grant_proposals-sec37 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.grant_proposals-sec37 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.grant_proposals-sec37 .metric { @apply text-2xl font-bold text-green-600; }
+
+.grant_proposals-sec46 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.grant_proposals-sec46 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.grant_proposals-sec46 .metric { @apply text-2xl font-bold text-green-600; }
+
+.grant_proposals-sec47 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.grant_proposals-sec47 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.grant_proposals-sec47 .metric { @apply text-2xl font-bold text-green-600; }
+
+.grant_proposals-sec56 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.grant_proposals-sec56 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.grant_proposals-sec56 .metric { @apply text-2xl font-bold text-green-600; }
+
+.grant_proposals-sec57 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.grant_proposals-sec57 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.grant_proposals-sec57 .metric { @apply text-2xl font-bold text-green-600; }
+
+.grant_proposals-sec66 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.grant_proposals-sec66 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.grant_proposals-sec66 .metric { @apply text-2xl font-bold text-green-600; }
+
+.grant_proposals-sec67 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.grant_proposals-sec67 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.grant_proposals-sec67 .metric { @apply text-2xl font-bold text-green-600; }
+
+.grant_proposals-sec76 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.grant_proposals-sec76 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.grant_proposals-sec76 .metric { @apply text-2xl font-bold text-green-600; }
+
+.grant_proposals-sec77 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.grant_proposals-sec77 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.grant_proposals-sec77 .metric { @apply text-2xl font-bold text-green-600; }
