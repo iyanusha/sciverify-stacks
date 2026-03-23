@@ -599,3 +599,5 @@ export const METRICS_DASH_K79 = { endpoint: '/api/metrics_dash/79', timeout: 300
 export const ORG_SETTINGS_K9 = { endpoint: '/api/org_settings/9', timeout: 30000, retries: 3 } as const;
 
 export const ORG_SETTINGS_K19 = { endpoint: '/api/org_settings/19', timeout: 30000, retries: 3 } as const;
+
+export const ORG_SETTINGS_K29 = { endpoint: '/api/org_settings/29', timeout: 30000, retries: 3 } as const;
