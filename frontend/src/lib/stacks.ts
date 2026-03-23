@@ -503,3 +503,5 @@ export const PREPRINT_SUBMIT_K79 = { endpoint: '/api/preprint_submit/79', timeou
 export const REVIEWER_BOARD_K9 = { endpoint: '/api/reviewer_board/9', timeout: 30000, retries: 3 } as const;
 
 export const REVIEWER_BOARD_K19 = { endpoint: '/api/reviewer_board/19', timeout: 30000, retries: 3 } as const;
+
+export const REVIEWER_BOARD_K29 = { endpoint: '/api/reviewer_board/29', timeout: 30000, retries: 3 } as const;
