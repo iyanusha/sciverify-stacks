@@ -499,3 +499,19 @@ export const PREPRINT_SUBMIT_K59 = { endpoint: '/api/preprint_submit/59', timeou
 export const PREPRINT_SUBMIT_K69 = { endpoint: '/api/preprint_submit/69', timeout: 30000, retries: 3 } as const;
 
 export const PREPRINT_SUBMIT_K79 = { endpoint: '/api/preprint_submit/79', timeout: 30000, retries: 3 } as const;
+
+export const REVIEWER_BOARD_K9 = { endpoint: '/api/reviewer_board/9', timeout: 30000, retries: 3 } as const;
+
+export const REVIEWER_BOARD_K19 = { endpoint: '/api/reviewer_board/19', timeout: 30000, retries: 3 } as const;
+
+export const REVIEWER_BOARD_K29 = { endpoint: '/api/reviewer_board/29', timeout: 30000, retries: 3 } as const;
+
+export const REVIEWER_BOARD_K39 = { endpoint: '/api/reviewer_board/39', timeout: 30000, retries: 3 } as const;
+
+export const REVIEWER_BOARD_K49 = { endpoint: '/api/reviewer_board/49', timeout: 30000, retries: 3 } as const;
+
+export const REVIEWER_BOARD_K59 = { endpoint: '/api/reviewer_board/59', timeout: 30000, retries: 3 } as const;
+
+export const REVIEWER_BOARD_K69 = { endpoint: '/api/reviewer_board/69', timeout: 30000, retries: 3 } as const;
+
+export const REVIEWER_BOARD_K79 = { endpoint: '/api/reviewer_board/79', timeout: 30000, retries: 3 } as const;
