@@ -1663,3 +1663,7 @@ body {
 .conf_calendar-sec27 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
 .conf_calendar-sec27 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
 .conf_calendar-sec27 .metric { @apply text-2xl font-bold text-green-600; }
+
+.conf_calendar-sec36 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.conf_calendar-sec36 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.conf_calendar-sec36 .metric { @apply text-2xl font-bold text-green-600; }
