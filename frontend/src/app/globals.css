@@ -1703,3 +1703,67 @@ body {
 .conf_calendar-sec77 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
 .conf_calendar-sec77 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
 .conf_calendar-sec77 .metric { @apply text-2xl font-bold text-green-600; }
+
+.ethics_review-sec6 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.ethics_review-sec6 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.ethics_review-sec6 .metric { @apply text-2xl font-bold text-green-600; }
+
+.ethics_review-sec7 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.ethics_review-sec7 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.ethics_review-sec7 .metric { @apply text-2xl font-bold text-green-600; }
+
+.ethics_review-sec16 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.ethics_review-sec16 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.ethics_review-sec16 .metric { @apply text-2xl font-bold text-green-600; }
+
+.ethics_review-sec17 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.ethics_review-sec17 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.ethics_review-sec17 .metric { @apply text-2xl font-bold text-green-600; }
+
+.ethics_review-sec26 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.ethics_review-sec26 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.ethics_review-sec26 .metric { @apply text-2xl font-bold text-green-600; }
+
+.ethics_review-sec27 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.ethics_review-sec27 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.ethics_review-sec27 .metric { @apply text-2xl font-bold text-green-600; }
+
+.ethics_review-sec36 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.ethics_review-sec36 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.ethics_review-sec36 .metric { @apply text-2xl font-bold text-green-600; }
+
+.ethics_review-sec37 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.ethics_review-sec37 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.ethics_review-sec37 .metric { @apply text-2xl font-bold text-green-600; }
+
+.ethics_review-sec46 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.ethics_review-sec46 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.ethics_review-sec46 .metric { @apply text-2xl font-bold text-green-600; }
+
+.ethics_review-sec47 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.ethics_review-sec47 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.ethics_review-sec47 .metric { @apply text-2xl font-bold text-green-600; }
+
+.ethics_review-sec56 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.ethics_review-sec56 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.ethics_review-sec56 .metric { @apply text-2xl font-bold text-green-600; }
+
+.ethics_review-sec57 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.ethics_review-sec57 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.ethics_review-sec57 .metric { @apply text-2xl font-bold text-green-600; }
+
+.ethics_review-sec66 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.ethics_review-sec66 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.ethics_review-sec66 .metric { @apply text-2xl font-bold text-green-600; }
+
+.ethics_review-sec67 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.ethics_review-sec67 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.ethics_review-sec67 .metric { @apply text-2xl font-bold text-green-600; }
+
+.ethics_review-sec76 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.ethics_review-sec76 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.ethics_review-sec76 .metric { @apply text-2xl font-bold text-green-600; }
+
+.ethics_review-sec77 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.ethics_review-sec77 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.ethics_review-sec77 .metric { @apply text-2xl font-bold text-green-600; }
