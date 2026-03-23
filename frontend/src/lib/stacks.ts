@@ -387,3 +387,19 @@ export const COLLABORATION_TOOLS_K59 = { endpoint: '/api/collaboration_tools/59'
 export const COLLABORATION_TOOLS_K69 = { endpoint: '/api/collaboration_tools/69', timeout: 30000, retries: 3 } as const;
 
 export const COLLABORATION_TOOLS_K79 = { endpoint: '/api/collaboration_tools/79', timeout: 30000, retries: 3 } as const;
+
+export const DATASET_VIEWER_K9 = { endpoint: '/api/dataset_viewer/9', timeout: 30000, retries: 3 } as const;
+
+export const DATASET_VIEWER_K19 = { endpoint: '/api/dataset_viewer/19', timeout: 30000, retries: 3 } as const;
+
+export const DATASET_VIEWER_K29 = { endpoint: '/api/dataset_viewer/29', timeout: 30000, retries: 3 } as const;
+
+export const DATASET_VIEWER_K39 = { endpoint: '/api/dataset_viewer/39', timeout: 30000, retries: 3 } as const;
+
+export const DATASET_VIEWER_K49 = { endpoint: '/api/dataset_viewer/49', timeout: 30000, retries: 3 } as const;
+
+export const DATASET_VIEWER_K59 = { endpoint: '/api/dataset_viewer/59', timeout: 30000, retries: 3 } as const;
+
+export const DATASET_VIEWER_K69 = { endpoint: '/api/dataset_viewer/69', timeout: 30000, retries: 3 } as const;
+
+export const DATASET_VIEWER_K79 = { endpoint: '/api/dataset_viewer/79', timeout: 30000, retries: 3 } as const;
