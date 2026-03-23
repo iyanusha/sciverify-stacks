@@ -511,3 +511,5 @@ export const REVIEWER_BOARD_K39 = { endpoint: '/api/reviewer_board/39', timeout:
 export const REVIEWER_BOARD_K49 = { endpoint: '/api/reviewer_board/49', timeout: 30000, retries: 3 } as const;
 
 export const REVIEWER_BOARD_K59 = { endpoint: '/api/reviewer_board/59', timeout: 30000, retries: 3 } as const;
+
+export const REVIEWER_BOARD_K69 = { endpoint: '/api/reviewer_board/69', timeout: 30000, retries: 3 } as const;
