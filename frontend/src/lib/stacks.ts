@@ -573,3 +573,5 @@ export const DATA_SHARING_K29 = { endpoint: '/api/data_sharing/29', timeout: 300
 export const DATA_SHARING_K39 = { endpoint: '/api/data_sharing/39', timeout: 30000, retries: 3 } as const;
 
 export const DATA_SHARING_K49 = { endpoint: '/api/data_sharing/49', timeout: 30000, retries: 3 } as const;
+
+export const DATA_SHARING_K59 = { endpoint: '/api/data_sharing/59', timeout: 30000, retries: 3 } as const;
