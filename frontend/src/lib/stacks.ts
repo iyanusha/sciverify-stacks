@@ -547,3 +547,5 @@ export const CONF_CALENDAR_K59 = { endpoint: '/api/conf_calendar/59', timeout: 3
 export const CONF_CALENDAR_K69 = { endpoint: '/api/conf_calendar/69', timeout: 30000, retries: 3 } as const;
 
 export const CONF_CALENDAR_K79 = { endpoint: '/api/conf_calendar/79', timeout: 30000, retries: 3 } as const;
+
+export const ETHICS_REVIEW_K9 = { endpoint: '/api/ethics_review/9', timeout: 30000, retries: 3 } as const;
