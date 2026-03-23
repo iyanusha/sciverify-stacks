@@ -591,3 +591,5 @@ export const METRICS_DASH_K39 = { endpoint: '/api/metrics_dash/39', timeout: 300
 export const METRICS_DASH_K49 = { endpoint: '/api/metrics_dash/49', timeout: 30000, retries: 3 } as const;
 
 export const METRICS_DASH_K59 = { endpoint: '/api/metrics_dash/59', timeout: 30000, retries: 3 } as const;
+
+export const METRICS_DASH_K69 = { endpoint: '/api/metrics_dash/69', timeout: 30000, retries: 3 } as const;
