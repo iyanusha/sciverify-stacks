@@ -1255,3 +1255,67 @@ body {
 .peer_matching-sec77 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
 .peer_matching-sec77 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
 .peer_matching-sec77 .metric { @apply text-2xl font-bold text-green-600; }
+
+.research_feed-sec6 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.research_feed-sec6 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.research_feed-sec6 .metric { @apply text-2xl font-bold text-green-600; }
+
+.research_feed-sec7 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.research_feed-sec7 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.research_feed-sec7 .metric { @apply text-2xl font-bold text-green-600; }
+
+.research_feed-sec16 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.research_feed-sec16 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.research_feed-sec16 .metric { @apply text-2xl font-bold text-green-600; }
+
+.research_feed-sec17 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.research_feed-sec17 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.research_feed-sec17 .metric { @apply text-2xl font-bold text-green-600; }
+
+.research_feed-sec26 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.research_feed-sec26 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.research_feed-sec26 .metric { @apply text-2xl font-bold text-green-600; }
+
+.research_feed-sec27 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.research_feed-sec27 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.research_feed-sec27 .metric { @apply text-2xl font-bold text-green-600; }
+
+.research_feed-sec36 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.research_feed-sec36 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.research_feed-sec36 .metric { @apply text-2xl font-bold text-green-600; }
+
+.research_feed-sec37 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.research_feed-sec37 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.research_feed-sec37 .metric { @apply text-2xl font-bold text-green-600; }
+
+.research_feed-sec46 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.research_feed-sec46 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.research_feed-sec46 .metric { @apply text-2xl font-bold text-green-600; }
+
+.research_feed-sec47 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.research_feed-sec47 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.research_feed-sec47 .metric { @apply text-2xl font-bold text-green-600; }
+
+.research_feed-sec56 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.research_feed-sec56 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.research_feed-sec56 .metric { @apply text-2xl font-bold text-green-600; }
+
+.research_feed-sec57 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.research_feed-sec57 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.research_feed-sec57 .metric { @apply text-2xl font-bold text-green-600; }
+
+.research_feed-sec66 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.research_feed-sec66 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.research_feed-sec66 .metric { @apply text-2xl font-bold text-green-600; }
+
+.research_feed-sec67 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.research_feed-sec67 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.research_feed-sec67 .metric { @apply text-2xl font-bold text-green-600; }
+
+.research_feed-sec76 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.research_feed-sec76 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.research_feed-sec76 .metric { @apply text-2xl font-bold text-green-600; }
+
+.research_feed-sec77 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.research_feed-sec77 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.research_feed-sec77 .metric { @apply text-2xl font-bold text-green-600; }

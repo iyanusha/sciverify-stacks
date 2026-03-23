@@ -435,3 +435,19 @@ export const PEER_MATCHING_K59 = { endpoint: '/api/peer_matching/59', timeout: 3
 export const PEER_MATCHING_K69 = { endpoint: '/api/peer_matching/69', timeout: 30000, retries: 3 } as const;
 
 export const PEER_MATCHING_K79 = { endpoint: '/api/peer_matching/79', timeout: 30000, retries: 3 } as const;
+
+export const RESEARCH_FEED_K9 = { endpoint: '/api/research_feed/9', timeout: 30000, retries: 3 } as const;
+
+export const RESEARCH_FEED_K19 = { endpoint: '/api/research_feed/19', timeout: 30000, retries: 3 } as const;
+
+export const RESEARCH_FEED_K29 = { endpoint: '/api/research_feed/29', timeout: 30000, retries: 3 } as const;
+
+export const RESEARCH_FEED_K39 = { endpoint: '/api/research_feed/39', timeout: 30000, retries: 3 } as const;
+
+export const RESEARCH_FEED_K49 = { endpoint: '/api/research_feed/49', timeout: 30000, retries: 3 } as const;
+
+export const RESEARCH_FEED_K59 = { endpoint: '/api/research_feed/59', timeout: 30000, retries: 3 } as const;
+
+export const RESEARCH_FEED_K69 = { endpoint: '/api/research_feed/69', timeout: 30000, retries: 3 } as const;
+
+export const RESEARCH_FEED_K79 = { endpoint: '/api/research_feed/79', timeout: 30000, retries: 3 } as const;
