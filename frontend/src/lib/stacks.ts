@@ -487,3 +487,5 @@ export const METHOD_REGISTRY_K79 = { endpoint: '/api/method_registry/79', timeou
 export const PREPRINT_SUBMIT_K9 = { endpoint: '/api/preprint_submit/9', timeout: 30000, retries: 3 } as const;
 
 export const PREPRINT_SUBMIT_K19 = { endpoint: '/api/preprint_submit/19', timeout: 30000, retries: 3 } as const;
+
+export const PREPRINT_SUBMIT_K29 = { endpoint: '/api/preprint_submit/29', timeout: 30000, retries: 3 } as const;
