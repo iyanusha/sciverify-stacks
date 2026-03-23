@@ -339,3 +339,19 @@ export const AUTHOR_PROFILE_K59 = { endpoint: '/api/author_profile/59', timeout:
 export const AUTHOR_PROFILE_K69 = { endpoint: '/api/author_profile/69', timeout: 30000, retries: 3 } as const;
 
 export const AUTHOR_PROFILE_K79 = { endpoint: '/api/author_profile/79', timeout: 30000, retries: 3 } as const;
+
+export const REVIEW_TIMELINE_K9 = { endpoint: '/api/review_timeline/9', timeout: 30000, retries: 3 } as const;
+
+export const REVIEW_TIMELINE_K19 = { endpoint: '/api/review_timeline/19', timeout: 30000, retries: 3 } as const;
+
+export const REVIEW_TIMELINE_K29 = { endpoint: '/api/review_timeline/29', timeout: 30000, retries: 3 } as const;
+
+export const REVIEW_TIMELINE_K39 = { endpoint: '/api/review_timeline/39', timeout: 30000, retries: 3 } as const;
+
+export const REVIEW_TIMELINE_K49 = { endpoint: '/api/review_timeline/49', timeout: 30000, retries: 3 } as const;
+
+export const REVIEW_TIMELINE_K59 = { endpoint: '/api/review_timeline/59', timeout: 30000, retries: 3 } as const;
+
+export const REVIEW_TIMELINE_K69 = { endpoint: '/api/review_timeline/69', timeout: 30000, retries: 3 } as const;
+
+export const REVIEW_TIMELINE_K79 = { endpoint: '/api/review_timeline/79', timeout: 30000, retries: 3 } as const;
