@@ -609,3 +609,5 @@ export const ORG_SETTINGS_K49 = { endpoint: '/api/org_settings/49', timeout: 300
 export const ORG_SETTINGS_K59 = { endpoint: '/api/org_settings/59', timeout: 30000, retries: 3 } as const;
 
 export const ORG_SETTINGS_K69 = { endpoint: '/api/org_settings/69', timeout: 30000, retries: 3 } as const;
+
+export const ORG_SETTINGS_K79 = { endpoint: '/api/org_settings/79', timeout: 30000, retries: 3 } as const;
