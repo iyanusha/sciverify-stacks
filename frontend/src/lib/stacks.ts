@@ -483,3 +483,19 @@ export const METHOD_REGISTRY_K59 = { endpoint: '/api/method_registry/59', timeou
 export const METHOD_REGISTRY_K69 = { endpoint: '/api/method_registry/69', timeout: 30000, retries: 3 } as const;
 
 export const METHOD_REGISTRY_K79 = { endpoint: '/api/method_registry/79', timeout: 30000, retries: 3 } as const;
+
+export const PREPRINT_SUBMIT_K9 = { endpoint: '/api/preprint_submit/9', timeout: 30000, retries: 3 } as const;
+
+export const PREPRINT_SUBMIT_K19 = { endpoint: '/api/preprint_submit/19', timeout: 30000, retries: 3 } as const;
+
+export const PREPRINT_SUBMIT_K29 = { endpoint: '/api/preprint_submit/29', timeout: 30000, retries: 3 } as const;
+
+export const PREPRINT_SUBMIT_K39 = { endpoint: '/api/preprint_submit/39', timeout: 30000, retries: 3 } as const;
+
+export const PREPRINT_SUBMIT_K49 = { endpoint: '/api/preprint_submit/49', timeout: 30000, retries: 3 } as const;
+
+export const PREPRINT_SUBMIT_K59 = { endpoint: '/api/preprint_submit/59', timeout: 30000, retries: 3 } as const;
+
+export const PREPRINT_SUBMIT_K69 = { endpoint: '/api/preprint_submit/69', timeout: 30000, retries: 3 } as const;
+
+export const PREPRINT_SUBMIT_K79 = { endpoint: '/api/preprint_submit/79', timeout: 30000, retries: 3 } as const;
