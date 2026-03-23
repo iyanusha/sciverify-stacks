@@ -561,3 +561,5 @@ export const ETHICS_REVIEW_K49 = { endpoint: '/api/ethics_review/49', timeout: 3
 export const ETHICS_REVIEW_K59 = { endpoint: '/api/ethics_review/59', timeout: 30000, retries: 3 } as const;
 
 export const ETHICS_REVIEW_K69 = { endpoint: '/api/ethics_review/69', timeout: 30000, retries: 3 } as const;
+
+export const ETHICS_REVIEW_K79 = { endpoint: '/api/ethics_review/79', timeout: 30000, retries: 3 } as const;
