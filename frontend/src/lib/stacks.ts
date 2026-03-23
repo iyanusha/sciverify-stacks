@@ -527,3 +527,5 @@ export const GRANT_PROPOSALS_K39 = { endpoint: '/api/grant_proposals/39', timeou
 export const GRANT_PROPOSALS_K49 = { endpoint: '/api/grant_proposals/49', timeout: 30000, retries: 3 } as const;
 
 export const GRANT_PROPOSALS_K59 = { endpoint: '/api/grant_proposals/59', timeout: 30000, retries: 3 } as const;
+
+export const GRANT_PROPOSALS_K69 = { endpoint: '/api/grant_proposals/69', timeout: 30000, retries: 3 } as const;
