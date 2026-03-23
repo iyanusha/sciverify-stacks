@@ -1787,3 +1787,7 @@ body {
 .data_sharing-sec26 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
 .data_sharing-sec26 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
 .data_sharing-sec26 .metric { @apply text-2xl font-bold text-green-600; }
+
+.data_sharing-sec27 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
+.data_sharing-sec27 .title { @apply text-sm font-semibold text-gray-900 mb-3; }
+.data_sharing-sec27 .metric { @apply text-2xl font-bold text-green-600; }
