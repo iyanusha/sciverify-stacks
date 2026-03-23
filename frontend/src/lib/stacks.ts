@@ -563,3 +563,19 @@ export const ETHICS_REVIEW_K59 = { endpoint: '/api/ethics_review/59', timeout: 3
 export const ETHICS_REVIEW_K69 = { endpoint: '/api/ethics_review/69', timeout: 30000, retries: 3 } as const;
 
 export const ETHICS_REVIEW_K79 = { endpoint: '/api/ethics_review/79', timeout: 30000, retries: 3 } as const;
+
+export const DATA_SHARING_K9 = { endpoint: '/api/data_sharing/9', timeout: 30000, retries: 3 } as const;
+
+export const DATA_SHARING_K19 = { endpoint: '/api/data_sharing/19', timeout: 30000, retries: 3 } as const;
+
+export const DATA_SHARING_K29 = { endpoint: '/api/data_sharing/29', timeout: 30000, retries: 3 } as const;
+
+export const DATA_SHARING_K39 = { endpoint: '/api/data_sharing/39', timeout: 30000, retries: 3 } as const;
+
+export const DATA_SHARING_K49 = { endpoint: '/api/data_sharing/49', timeout: 30000, retries: 3 } as const;
+
+export const DATA_SHARING_K59 = { endpoint: '/api/data_sharing/59', timeout: 30000, retries: 3 } as const;
+
+export const DATA_SHARING_K69 = { endpoint: '/api/data_sharing/69', timeout: 30000, retries: 3 } as const;
+
+export const DATA_SHARING_K79 = { endpoint: '/api/data_sharing/79', timeout: 30000, retries: 3 } as const;
