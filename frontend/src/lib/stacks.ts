@@ -469,3 +469,5 @@ export const LAB_NOTEBOOK_K69 = { endpoint: '/api/lab_notebook/69', timeout: 300
 export const LAB_NOTEBOOK_K79 = { endpoint: '/api/lab_notebook/79', timeout: 30000, retries: 3 } as const;
 
 export const METHOD_REGISTRY_K9 = { endpoint: '/api/method_registry/9', timeout: 30000, retries: 3 } as const;
+
+export const METHOD_REGISTRY_K19 = { endpoint: '/api/method_registry/19', timeout: 30000, retries: 3 } as const;
