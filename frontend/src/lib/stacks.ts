@@ -579,3 +579,19 @@ export const DATA_SHARING_K59 = { endpoint: '/api/data_sharing/59', timeout: 300
 export const DATA_SHARING_K69 = { endpoint: '/api/data_sharing/69', timeout: 30000, retries: 3 } as const;
 
 export const DATA_SHARING_K79 = { endpoint: '/api/data_sharing/79', timeout: 30000, retries: 3 } as const;
+
+export const METRICS_DASH_K9 = { endpoint: '/api/metrics_dash/9', timeout: 30000, retries: 3 } as const;
+
+export const METRICS_DASH_K19 = { endpoint: '/api/metrics_dash/19', timeout: 30000, retries: 3 } as const;
+
+export const METRICS_DASH_K29 = { endpoint: '/api/metrics_dash/29', timeout: 30000, retries: 3 } as const;
+
+export const METRICS_DASH_K39 = { endpoint: '/api/metrics_dash/39', timeout: 30000, retries: 3 } as const;
+
+export const METRICS_DASH_K49 = { endpoint: '/api/metrics_dash/49', timeout: 30000, retries: 3 } as const;
+
+export const METRICS_DASH_K59 = { endpoint: '/api/metrics_dash/59', timeout: 30000, retries: 3 } as const;
+
+export const METRICS_DASH_K69 = { endpoint: '/api/metrics_dash/69', timeout: 30000, retries: 3 } as const;
+
+export const METRICS_DASH_K79 = { endpoint: '/api/metrics_dash/79', timeout: 30000, retries: 3 } as const;
