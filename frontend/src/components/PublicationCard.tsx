@@ -22,9 +22,25 @@ function sanitizeHighlight(html: string): string {
   return html.replace(/<(?!\/?(mark)(?=>|\s))[^>]*>/gi, '');
 }
 
+function formatCitation(pub: Publication): string {
+  const authors = pub.authors.join(', ');
+  const year = new Date(pub.submittedAt).getFullYear();
+  const doi = pub.doi ? ` https://doi.org/${pub.doi}` : '';
+  return `${authors} (${year}). ${pub.title}.${doi}`;
+}
+
 export default function PublicationCard({ publication, query, onKeywordClick }: PublicationCardProps) {
   const [expanded, setExpanded] = useState(false);
+  const [copied, setCopied] = useState(false);
   const ABSTRACT_LIMIT = 200;
+
+  function handleCopyCitation() {
+    const citation = formatCitation(publication);
+    navigator.clipboard.writeText(citation).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    });
+  }
 
   const rawAbstract = publication.abstract;
   const isLong = rawAbstract.length > ABSTRACT_LIMIT;
@@ -106,6 +122,13 @@ export default function PublicationCard({ publication, query, onKeywordClick }: 
       <div className="mt-4 flex items-center justify-between text-xs text-gray-400">
         <span>Submitted {submittedDate}</span>
         <div className="flex items-center gap-3">
+          <button
+            onClick={handleCopyCitation}
+            title="Copy citation"
+            className="font-medium text-gray-400 hover:text-gray-600 transition-colors"
+          >
+            {copied ? 'Copied!' : 'Cite'}
+          </button>
           {publication.doi && (
             <a
               href={`https://doi.org/${publication.doi}`}
