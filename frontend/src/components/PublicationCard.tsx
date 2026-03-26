@@ -32,7 +32,16 @@ function formatCitation(pub: Publication): string {
 export default function PublicationCard({ publication, query, onKeywordClick }: PublicationCardProps) {
   const [expanded, setExpanded] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [shared, setShared] = useState(false);
   const ABSTRACT_LIMIT = 200;
+
+  function handleShare() {
+    const url = `${window.location.origin}/publications/${publication.id}`;
+    navigator.clipboard.writeText(url).then(() => {
+      setShared(true);
+      setTimeout(() => setShared(false), 2000);
+    });
+  }
 
   function handleCopyCitation() {
     const citation = formatCitation(publication);
@@ -122,12 +131,20 @@ export default function PublicationCard({ publication, query, onKeywordClick }: 
       <div className="mt-4 flex items-center justify-between text-xs text-gray-400">
         <span>Submitted {submittedDate}</span>
         <div className="flex items-center gap-3">
+          <span className="text-gray-300">#{publication.registryId}</span>
+          <button
+            onClick={handleShare}
+            title="Copy link"
+            className="font-medium text-gray-400 hover:text-gray-600 transition-colors"
+          >
+            {shared ? 'Copied!' : 'Share'}
+          </button>
           <button
             onClick={handleCopyCitation}
             title="Copy citation"
             className="font-medium text-gray-400 hover:text-gray-600 transition-colors"
           >
-            {copied ? 'Copied!' : 'Cite'}
+            {copied ? 'Cited!' : 'Cite'}
           </button>
           {publication.doi && (
             <a
