@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { Publication, SearchFilters, SearchResult } from '@/types/publication';
+import { Publication, SearchFilters } from '@/types/publication';
 import { rankResults, applyFilters } from '@/lib/searchUtils';
 
 const PAGE_SIZE = 10;
@@ -22,6 +22,9 @@ interface UsePublicationSearchReturn {
   total: number;
   sortBy: SortBy;
   setSortBy: (s: SortBy) => void;
+  hasResults: boolean;
+  isEmpty: boolean;
+  isFiltered: boolean;
 }
 
 export function usePublicationSearch(
@@ -81,6 +84,16 @@ export function usePublicationSearch(
   }, [debouncedQuery, filters, page, sortBy, publications]);
 
   const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+  const hasResults = results.length > 0;
+  const isEmpty = !loading && total === 0;
+  const isFiltered = Boolean(
+    debouncedQuery.trim() ||
+      filters.status ||
+      filters.author ||
+      filters.keyword ||
+      filters.dateFrom ||
+      filters.dateTo
+  );
 
   return {
     results,
@@ -96,5 +109,8 @@ export function usePublicationSearch(
     total,
     sortBy,
     setSortBy,
+    hasResults,
+    isEmpty,
+    isFiltered,
   };
 }
