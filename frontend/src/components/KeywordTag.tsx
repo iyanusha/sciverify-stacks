@@ -5,9 +5,11 @@ interface KeywordTagProps {
   onClick?: () => void;
   onRemove?: () => void;
   active?: boolean;
+  count?: number;
+  title?: string;
 }
 
-export default function KeywordTag({ label, onClick, onRemove, active = false }: KeywordTagProps) {
+export default function KeywordTag({ label, onClick, onRemove, active = false, count, title }: KeywordTagProps) {
   return (
     <span
       className={`keyword-tag inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-xs font-medium transition-colors ${
@@ -18,9 +20,14 @@ export default function KeywordTag({ label, onClick, onRemove, active = false }:
       onClick={onClick}
       role={onClick ? 'button' : undefined}
       tabIndex={onClick ? 0 : undefined}
+      title={title ?? (onClick ? `Filter by ${label}` : undefined)}
+      aria-label={onClick ? `Filter by keyword: ${label}` : label}
       onKeyDown={onClick ? (e) => e.key === 'Enter' && onClick() : undefined}
     >
       {label}
+      {count !== undefined && (
+        <span className="ml-0.5 rounded-full bg-current/10 px-1 text-[10px] tabular-nums">{count}</span>
+      )}
       {onRemove && (
         <button
           onClick={(e) => {
