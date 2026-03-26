@@ -8,6 +8,7 @@ interface SearchBarProps {
   onChange: (v: string) => void;
   placeholder?: string;
   loading?: boolean;
+  resultCount?: number;
 }
 
 export default function SearchBar({
@@ -15,6 +16,7 @@ export default function SearchBar({
   onChange,
   placeholder = 'Search publications...',
   loading = false,
+  resultCount,
 }: SearchBarProps) {
   const inputRef = useRef<HTMLInputElement>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -159,6 +161,14 @@ export default function SearchBar({
             </button>
           ))}
         </div>
+      )}
+      {/* Accessible live region for screen readers */}
+      {!loading && value && resultCount !== undefined && (
+        <p className="sr-only" aria-live="polite" aria-atomic="true">
+          {resultCount === 0
+            ? 'No results found'
+            : `${resultCount} result${resultCount === 1 ? '' : 's'} found`}
+        </p>
       )}
     </div>
   );
