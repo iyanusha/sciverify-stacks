@@ -120,3 +120,29 @@ export function clearRecentSearches(): void {
   if (typeof window === 'undefined') return;
   localStorage.removeItem('sciverify_recent_searches');
 }
+
+export function computeKeywordFrequency(publications: Publication[]): Map<string, number> {
+  const freq = new Map<string, number>();
+  for (const pub of publications) {
+    for (const kw of pub.keywords) {
+      const normalized = kw.toLowerCase().trim();
+      freq.set(normalized, (freq.get(normalized) ?? 0) + 1);
+    }
+  }
+  return freq;
+}
+
+export function getTopKeywords(publications: Publication[], limit = 10): { keyword: string; count: number }[] {
+  const freq = computeKeywordFrequency(publications);
+  return Array.from(freq.entries())
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, limit)
+    .map(([keyword, count]) => ({ keyword, count }));
+}
+
+export function getStatusCounts(publications: Publication[]): Record<string, number> {
+  return publications.reduce<Record<string, number>>((acc, pub) => {
+    acc[pub.reviewStatus] = (acc[pub.reviewStatus] ?? 0) + 1;
+    return acc;
+  }, {});
+}
