@@ -174,6 +174,20 @@ export default function SearchFiltersPanel({ filters, onChange }: SearchFiltersP
               </div>
             </div>
           </div>
+
+          {/* Reset */}
+          {(filters.status || filters.author || activeKeywords.length > 0 || filters.dateFrom || filters.dateTo) && (
+            <button
+              onClick={() => {
+                setActiveKeywords([]);
+                setKeywordInput('');
+                onChange({ query: filters.query });
+              }}
+              className="w-full rounded-lg border border-gray-200 py-2 text-xs font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-700 transition-colors"
+            >
+              Reset filters
+            </button>
+          )}
         </div>
       )}
     </div>
