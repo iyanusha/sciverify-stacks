@@ -18,6 +18,9 @@ export default function Navbar() {
             <a href="#publications" className="text-sm text-gray-600 hover:text-gray-900">
               Publications
             </a>
+            <a href="/publications/search" className="text-sm text-gray-600 hover:text-gray-900">
+              Search
+            </a>
             <a href="#review" className="text-sm text-gray-600 hover:text-gray-900">
               Peer Review
             </a>
