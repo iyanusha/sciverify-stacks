@@ -128,3 +128,32 @@ export function summarizeVotes(reviews: Review[]): {
     stdDev,
   };
 }
+
+export function getScoreCategory(score: number): 'excellent' | 'good' | 'average' | 'poor' {
+  if (score >= 4.5) return 'excellent';
+  if (score >= 3.5) return 'good';
+  if (score >= 2.5) return 'average';
+  return 'poor';
+}
+
+export function canReviewerSubmit(reviews: Review[], reviewerId: string, publicationId: string): boolean {
+  return !reviews.some(
+    (r) => r.reviewerId === reviewerId && r.publicationId === publicationId
+  );
+}
+
+export function getAverageByCategory(reviews: Review[]): Record<string, number> {
+  const categoryScores: Record<string, number[]> = {};
+
+  for (const review of reviews) {
+    const category = getScoreCategory(review.overallScore);
+    if (!categoryScores[category]) categoryScores[category] = [];
+    categoryScores[category].push(review.overallScore);
+  }
+
+  const result: Record<string, number> = {};
+  for (const [category, scores] of Object.entries(categoryScores)) {
+    result[category] = scores.reduce((a, b) => a + b, 0) / scores.length;
+  }
+  return result;
+}
