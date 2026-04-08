@@ -84,3 +84,44 @@ export function computeParticipationRate(votes: Vote[], eligibleCount: number): 
   const unique = new Set(votes.map((v) => v.voter)).size;
   return Math.round((unique / eligibleCount) * 100);
 }
+
+export function filterProposals(
+  proposals: Proposal[],
+  filter: { status?: ProposalStatus; query?: string }
+): Proposal[] {
+  let result = proposals;
+
+  if (filter.status) {
+    result = result.filter((p) => p.status === filter.status);
+  }
+
+  if (filter.query) {
+    const q = filter.query.toLowerCase();
+    result = result.filter(
+      (p) =>
+        p.title.toLowerCase().includes(q) ||
+        p.description.toLowerCase().includes(q) ||
+        p.proposer.toLowerCase().includes(q)
+    );
+  }
+
+  return result;
+}
+
+export function getProposalSummary(proposals: Proposal[]): {
+  total: number;
+  active: number;
+  passed: number;
+  failed: number;
+  pending: number;
+  executed: number;
+} {
+  return {
+    total: proposals.length,
+    active: proposals.filter((p) => p.status === 'active').length,
+    passed: proposals.filter((p) => p.status === 'passed').length,
+    failed: proposals.filter((p) => p.status === 'failed').length,
+    pending: proposals.filter((p) => p.status === 'pending').length,
+    executed: proposals.filter((p) => p.status === 'executed').length,
+  };
+}
