@@ -24,7 +24,7 @@ export default function Navbar() {
             <a href="/review" className="text-sm text-gray-600 hover:text-gray-900">
               Peer Review
             </a>
-            <a href="#governance" className="text-sm text-gray-600 hover:text-gray-900">
+            <a href="/governance" className="text-sm text-gray-600 hover:text-gray-900">
               Governance
             </a>
           </div>
