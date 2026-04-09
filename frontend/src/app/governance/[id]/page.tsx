@@ -1,7 +1,8 @@
 'use client';
 
-import { use, useMemo } from 'react';
+import { use } from 'react';
 import { useFetchProposals } from '@/hooks/useFetchProposals';
+import { useFetchVotes } from '@/hooks/useFetchVotes';
 import { useVote } from '@/hooks/useVote';
 import { useWallet } from '@/hooks/useWallet';
 import VoteButtons from '@/components/VoteButtons';
@@ -9,15 +10,8 @@ import VoteProgressBar from '@/components/VoteProgressBar';
 import QuorumIndicator from '@/components/QuorumIndicator';
 import ProposalStatusBadge from '@/components/ProposalStatusBadge';
 import VoteHistoryList from '@/components/VoteHistoryList';
+import ProposalTimeline from '@/components/ProposalTimeline';
 import { canVote, formatBlocksRemaining, getVoteResult } from '@/lib/governanceUtils';
-import { Vote } from '@/types/governance';
-
-// Sample vote history — replace with contract reads
-const MOCK_VOTES: Vote[] = [
-  { proposalId: 1, voter: 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM', support: true, weight: 2500, txHash: '0xabc', timestamp: 1743600000000 },
-  { proposalId: 1, voter: 'ST2CY5V39NHDPWSXMW9QDT3HC3GD6Q6XX4CFRK9AG', support: false, weight: 1800, txHash: '0xdef', timestamp: 1743650000000 },
-  { proposalId: 1, voter: 'ST3NBRSFKX28FQ2ZJ1MAKX58HKHSDGNV5NH7C3C56', support: true, weight: 3100, txHash: '0xghi', timestamp: 1743700000000 },
-];
 
 const CURRENT_BLOCK = 147000;
 
@@ -29,16 +23,14 @@ export default function ProposalDetailPage({ params }: PageProps) {
   const { id } = use(params);
   const proposalId = Number(id);
   const { proposals, loading } = useFetchProposals();
+  const { votes, loading: votesLoading } = useFetchVotes(proposalId);
   const { isConnected, getAddress } = useWallet();
 
   const proposal = proposals.find((p) => p.id === proposalId);
   const address = getAddress();
   const { vote, voting, error: voteError, txId, hasVoted, voteWeight } = useVote(proposalId, address ?? null);
 
-  const proposalVotes = useMemo(
-    () => MOCK_VOTES.filter((v) => v.proposalId === proposalId),
-    [proposalId]
-  );
+  const proposalVotes = votes;
 
   if (loading) {
     return (
@@ -131,8 +123,16 @@ export default function ProposalDetailPage({ params }: PageProps) {
         </div>
       )}
 
+      <div className="mb-6">
+        <ProposalTimeline proposal={proposal} currentBlock={CURRENT_BLOCK} />
+      </div>
+
       <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-        <VoteHistoryList votes={proposalVotes} />
+        {votesLoading ? (
+          <div className="h-20 animate-pulse rounded bg-gray-50" />
+        ) : (
+          <VoteHistoryList votes={proposalVotes} />
+        )}
       </div>
     </main>
   );
