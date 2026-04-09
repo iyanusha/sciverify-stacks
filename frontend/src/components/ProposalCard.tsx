@@ -1,7 +1,7 @@
 'use client';
 
 import { Proposal } from '@/types/governance';
-import { formatBlocksRemaining, getVoteResult } from '@/lib/governanceUtils';
+import { formatBlocksRemaining, getVoteResult, isQuorumReached } from '@/lib/governanceUtils';
 import ProposalStatusBadge from './ProposalStatusBadge';
 import VoteProgressBar from './VoteProgressBar';
 
@@ -58,6 +58,10 @@ export default function ProposalCard({ proposal, currentBlock = 147000 }: Propos
           )}
         </div>
       </div>
+
+      {isQuorumReached(proposal) && (
+        <p className="mt-2 text-xs text-green-600 font-medium">✓ Quorum reached</p>
+      )}
 
       <div className="mt-4">
         <VoteProgressBar
