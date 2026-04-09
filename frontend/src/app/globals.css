@@ -774,3 +774,48 @@ body {
   color: #b91c1c;
   border-color: #fecaca;
 }
+
+/* Governance styles */
+.proposal-card {
+  border-left: 4px solid #6366f1;
+}
+
+.vote-bar-for {
+  background: #16a34a;
+}
+
+.vote-bar-against {
+  background: #dc2626;
+}
+
+.quorum-line {
+  border-left: 2px dashed #6b7280;
+}
+
+.governance-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+@media (max-width: 640px) {
+  .governance-stats {
+    grid-template-columns: 1fr;
+  }
+}
+
+.proposal-card:hover {
+  border-left-color: #4f46e5;
+}
+
+.vote-weight-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  border-radius: 9999px;
+  background: #ede9fe;
+  color: #5b21b6;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.125rem 0.625rem;
+}
