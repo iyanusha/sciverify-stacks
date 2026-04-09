@@ -679,3 +679,45 @@ body {
 
 .admin_controls-b47 { @apply grid gap-4 p-5 rounded-xl bg-white border border-gray-100; }
 .admin_controls-b47 .hdr { @apply flex items-center justify-between pb-3 border-b border-gray-100; }
+
+/* Publication search styles */
+.search-highlight mark {
+  background: #fef9c3;
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 2px;
+}
+
+.publication-card {
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.publication-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-color: #d1fae5;
+}
+
+.keyword-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  user-select: none;
+  transition: background-color 0.1s ease, border-color 0.1s ease;
+}
+
+.keyword-tag:focus-visible {
+  outline: 2px solid #16a34a;
+  outline-offset: 2px;
+}
+
+.search-sidebar {
+  position: sticky;
+  top: 1rem;
+  align-self: start;
+}
+
+.search-results-header {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
